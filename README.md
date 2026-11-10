@@ -90,7 +90,7 @@ Simutrans Blender Kitによるレンダリング時、低解像度の直交投�
   - レンダリング後は `bpy.ops.simutrans.check_colors()` を実行し、異常ピクセルやSimutrans予約色（プレイヤーカラー、透過キー色等）の混入がないか確認する。
 
 > [!TIP]
-> 原色混入の詳しい発生メカニズムおよびモデリングでの具体的な修正手順については、[`simutrans_blender.md`（レンダリング時の原色混入対策）](./simutrans_blender.md#7-レンダリング時の原色混入z-fighting微小交差ノイズ対策) にまとめてあるのでそちらを確認してください。
+> 原色混入の詳しい発生メカニズムおよびモデリングでの具体的な修正手順については、[`simutrans_blender.md`（レンダリング時の原色混入対策）](./simutrans_blender.md#8-レンダリング時の原色混入z-fighting微小交差ノイズ対策) にまとめてあるのでそちらを確認してください。
 
 ### ⑤ ビルド環境の準備（Ruby・makeobj）
 - **Ruby**: Ruby 3.x（`ruby -v` で確認可能。dattプリプロセッサおよびビルドパイプライン実行に必要）
