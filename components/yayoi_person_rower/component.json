@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "key": "yayoi_person_rower",
+  "name": "Yayoi Rower with Oar",
+  "category": "other",
+  "author": "Antigravity",
+  "license": "CC0",
+  "version": "1.0.0",
+  "blend": "yayoi_person_rower.blend",
+  "collection": "Yayoi_Person_Rower",
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "pakset": "pak128",
+  "note": "Yayoi period rower in white kantoui tunic holding a wooden oar"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "key": "yayoi_person_seated",
+  "name": "Yayoi Person (Seated)",
+  "category": "other",
+  "author": "Antigravity",
+  "license": "CC0",
+  "version": "1.0.0",
+  "blend": "yayoi_person_seated.blend",
+  "collection": "Yayoi_Person_Seated",
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "pakset": "pak128",
+  "note": "Yayoi period person in white kantoui tunic, seated passenger pose"
+}

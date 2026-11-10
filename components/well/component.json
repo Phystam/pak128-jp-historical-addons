@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "key": "well",
+  "name": "Traditional Japanese Well",
+  "category": "other",
+  "author": "Antigravity",
+  "license": "CC0",
+  "version": "1.0.0",
+  "blend": "well.blend",
+  "collection": "Well_Component",
+  "anchor": [0.0, 0.0, 0.0],
+  "pakset": "pak128",
+  "note": "Traditional Edo/Meiji period well with timber curb, bucket, pulley, and tiled roof"
+}

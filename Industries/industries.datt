@@ -1,0 +1,50 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'industry'
+
+obj=factory
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+
+intro_year=#{excel('intro_year') || 1}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+
+location=#{excel('location') || 'Land'}
+mapcolor=#{excel('mapcolor') || 162}
+Productivity=#{excel('productivity') || 20}
+Range=#{excel('range') || 20}
+distributionweight=#{excel('distributionweight') || 5}
+---
+
+---
+%resource 'field'
+
+obj=field
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+---
+
+---
+%resource 'building'
+
+obj=building
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+
+type=#{excel('type') || 'cur'}
+level=#{excel('level') || 1}
+intro_year=#{excel('intro_year') || 1}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+needs_ground=#{excel('needs_ground') || 1}
+---

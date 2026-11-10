@@ -1,0 +1,79 @@
+%require '../pedestrians.datt'
+
+---
+name=Yayoi_Pedestrian_Hemp_Standard
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.0.0
+image[w]=yayoi_pedestrians.0.1
+image[sw]=yayoi_pedestrians.0.2
+image[se]=yayoi_pedestrians.0.3
+image[n]=yayoi_pedestrians.0.4
+image[e]=yayoi_pedestrians.0.5
+image[ne]=yayoi_pedestrians.0.6
+image[nw]=yayoi_pedestrians.0.7
+---
+
+---
+name=Yayoi_Pedestrian_Hemp_Tall
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.1.0
+image[w]=yayoi_pedestrians.1.1
+image[sw]=yayoi_pedestrians.1.2
+image[se]=yayoi_pedestrians.1.3
+image[n]=yayoi_pedestrians.1.4
+image[e]=yayoi_pedestrians.1.5
+image[ne]=yayoi_pedestrians.1.6
+image[nw]=yayoi_pedestrians.1.7
+---
+
+---
+name=Yayoi_Pedestrian_Hemp_Short
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.2.0
+image[w]=yayoi_pedestrians.2.1
+image[sw]=yayoi_pedestrians.2.2
+image[se]=yayoi_pedestrians.2.3
+image[n]=yayoi_pedestrians.2.4
+image[e]=yayoi_pedestrians.2.5
+image[ne]=yayoi_pedestrians.2.6
+image[nw]=yayoi_pedestrians.2.7
+---
+
+---
+name=Yayoi_Pedestrian_White_Standard
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.3.0
+image[w]=yayoi_pedestrians.3.1
+image[sw]=yayoi_pedestrians.3.2
+image[se]=yayoi_pedestrians.3.3
+image[n]=yayoi_pedestrians.3.4
+image[e]=yayoi_pedestrians.3.5
+image[ne]=yayoi_pedestrians.3.6
+image[nw]=yayoi_pedestrians.3.7
+---
+
+---
+name=Yayoi_Pedestrian_White_Tall
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.4.0
+image[w]=yayoi_pedestrians.4.1
+image[sw]=yayoi_pedestrians.4.2
+image[se]=yayoi_pedestrians.4.3
+image[n]=yayoi_pedestrians.4.4
+image[e]=yayoi_pedestrians.4.5
+image[ne]=yayoi_pedestrians.4.6
+image[nw]=yayoi_pedestrians.4.7
+---
+
+---
+name=Yayoi_Pedestrian_White_Short
+%include 'pedestrian'
+image[s]=yayoi_pedestrians.5.0
+image[w]=yayoi_pedestrians.5.1
+image[sw]=yayoi_pedestrians.5.2
+image[se]=yayoi_pedestrians.5.3
+image[n]=yayoi_pedestrians.5.4
+image[e]=yayoi_pedestrians.5.5
+image[ne]=yayoi_pedestrians.5.6
+image[nw]=yayoi_pedestrians.5.7
+---

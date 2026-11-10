@@ -1,0 +1,18 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'citycar'
+
+obj=citycar
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || ''}
+
+intro_year=#{excel('intro_year') || 1900}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+speed=#{excel('speed') || 50}
+distributionweight=#{excel('distributionweight') || 10}
+---

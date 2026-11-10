@@ -1,0 +1,41 @@
+# Yayoi Rice Paddy Field Variant 1 (4 Perimeter Canals, 4 Rotations x 5 Seasons)
+# Note: Simutrans obj=field does not have a native layout/rotation index in Image[],
+# so the 4 rotation rows (row 0..3) are registered as 4 field classes (Yayoi_Suiden_1, _R1, _R2, _R3)
+# that the Rice Paddy Factory (Yayoi_Suiden_Factory) spawns randomly in all 4 orientations.
+# Sprite sheet columns: 0=Summer, 1=Autumn, 2=Winter, 3=Spring, 4=Snow
+# obj=field Image[0..3] progresses across the calendar year (Winter->Spring->Summer->Autumn), Image[4]=Snow.
+obj=field
+name=Yayoi_Suiden_1
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_1.0.2
+Image[1]=yayoi_suiden_1.0.3
+Image[2]=yayoi_suiden_1.0.0
+Image[3]=yayoi_suiden_1.0.1
+Image[4]=yayoi_suiden_1.0.4
+---
+obj=field
+name=Yayoi_Suiden_1_R1
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_1.1.2
+Image[1]=yayoi_suiden_1.1.3
+Image[2]=yayoi_suiden_1.1.0
+Image[3]=yayoi_suiden_1.1.1
+Image[4]=yayoi_suiden_1.1.4
+---
+obj=field
+name=Yayoi_Suiden_1_R2
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_1.2.2
+Image[1]=yayoi_suiden_1.2.3
+Image[2]=yayoi_suiden_1.2.0
+Image[3]=yayoi_suiden_1.2.1
+Image[4]=yayoi_suiden_1.2.4
+---
+obj=field
+name=Yayoi_Suiden_1_R3
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_1.3.2
+Image[1]=yayoi_suiden_1.3.3
+Image[2]=yayoi_suiden_1.3.0
+Image[3]=yayoi_suiden_1.3.1
+Image[4]=yayoi_suiden_1.3.4

@@ -1,0 +1,25 @@
+%require '../../vehicles.datt'
+
+---
+name=Yayoi_junkouzousen_2_cargo
+%include 'vehicle'
+engine_type=sail
+length=9
+freightimagetype[0]=rice
+EmptyImage[s]=junkouzousen_2_cargo.0.0
+EmptyImage[w]=junkouzousen_2_cargo.0.1
+EmptyImage[sw]=junkouzousen_2_cargo.0.2
+EmptyImage[se]=junkouzousen_2_cargo.0.3
+EmptyImage[n]=junkouzousen_2_cargo.1.0
+EmptyImage[e]=junkouzousen_2_cargo.1.1
+EmptyImage[ne]=junkouzousen_2_cargo.1.2
+EmptyImage[nw]=junkouzousen_2_cargo.1.3
+FreightImage[0][s]=junkouzousen_2_cargo.2.0
+FreightImage[0][w]=junkouzousen_2_cargo.2.1
+FreightImage[0][sw]=junkouzousen_2_cargo.2.2
+FreightImage[0][se]=junkouzousen_2_cargo.2.3
+FreightImage[0][n]=junkouzousen_2_cargo.3.0
+FreightImage[0][e]=junkouzousen_2_cargo.3.1
+FreightImage[0][ne]=junkouzousen_2_cargo.3.2
+FreightImage[0][nw]=junkouzousen_2_cargo.3.3
+---

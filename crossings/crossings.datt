@@ -1,0 +1,19 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'crossing'
+
+obj=crossing
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || ''}
+
+waytype[0]=#{excel!('waytype1')}
+waytype[1]=#{excel!('waytype2')}
+intro_year=#{excel('intro_year') || 1900}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+cost=#{excel('cost') || 1000}
+---

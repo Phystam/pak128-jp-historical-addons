@@ -1,0 +1,25 @@
+%require '../../vehicles.datt'
+
+---
+name=Yayoi_marukibune_cargo
+%include 'vehicle'
+engine_type=sail
+length=5
+freightimagetype[0]=rice
+EmptyImage[s]=marukibune_cargo.0.0
+EmptyImage[w]=marukibune_cargo.0.1
+EmptyImage[sw]=marukibune_cargo.0.2
+EmptyImage[se]=marukibune_cargo.0.3
+EmptyImage[n]=marukibune_cargo.1.0
+EmptyImage[e]=marukibune_cargo.1.1
+EmptyImage[ne]=marukibune_cargo.1.2
+EmptyImage[nw]=marukibune_cargo.1.3
+FreightImage[0][s]=marukibune_cargo.2.0
+FreightImage[0][w]=marukibune_cargo.2.1
+FreightImage[0][sw]=marukibune_cargo.2.2
+FreightImage[0][se]=marukibune_cargo.2.3
+FreightImage[0][n]=marukibune_cargo.3.0
+FreightImage[0][e]=marukibune_cargo.3.1
+FreightImage[0][ne]=marukibune_cargo.3.2
+FreightImage[0][nw]=marukibune_cargo.3.3
+---

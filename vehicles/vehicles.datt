@@ -1,0 +1,26 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'vehicle'
+
+obj=vehicle
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || ''}
+
+waytype=#{excel!('waytype')}
+freight=#{excel('freight') || 'rice'}
+payload=#{excel('payload') || 10}
+speed=#{excel('speed') || 10}
+power=#{excel('power') || 1}
+gear=#{excel('gear') || 100}
+weight=#{excel('weight') || 1}
+cost=#{excel('cost') || 10000}
+runningcost=#{excel('running_cost') || 5}
+
+intro_year=#{excel('intro_year') || 1}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+---

@@ -1,0 +1,43 @@
+# Pak files and build outputs
+*.pak
+build_staging/
+build/
+
+# Intermediary rendered images (Blender rendering slices / temporary renders)
+# 1. Tile slices and full scene renders (e.g., yayoi_porter_depot_1_0_0_0_0_2.png, shusaiden_full_0_0_0.png)
+*_*_*_*_*_*.png
+*_full_*_*.png
+
+# 2. Vehicle, pedestrian, and way direction slices
+*_empty_*.png
+*_f[0-9]_*.png
+moat_s[0-9]_*.png
+ped_*_*.png
+*_s.png
+*_w.png
+*_sw.png
+*_se.png
+*_n.png
+*_e.png
+*_ne.png
+*_nw.png
+
+# 3. Contact sheets and preview renders
+*_preview*.png
+*_contact*.png
+
+# Temporary and scratch workspace
+scratch/
+
+# Blender backup and auto-save files
+*.blend1
+*.blend2
+*.blend@
+
+# Office temporary files
+~$*.xlsx
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,36 @@
+# Yayoi Rice Paddy Field Variant 3 (4 Perimeter Canals, 4 Rotations x 5 Seasons)
+obj=field
+name=Yayoi_Suiden_3
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_3.0.2
+Image[1]=yayoi_suiden_3.0.3
+Image[2]=yayoi_suiden_3.0.0
+Image[3]=yayoi_suiden_3.0.1
+Image[4]=yayoi_suiden_3.0.4
+---
+obj=field
+name=Yayoi_Suiden_3_R1
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_3.1.2
+Image[1]=yayoi_suiden_3.1.3
+Image[2]=yayoi_suiden_3.1.0
+Image[3]=yayoi_suiden_3.1.1
+Image[4]=yayoi_suiden_3.1.4
+---
+obj=field
+name=Yayoi_Suiden_3_R2
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_3.2.2
+Image[1]=yayoi_suiden_3.2.3
+Image[2]=yayoi_suiden_3.2.0
+Image[3]=yayoi_suiden_3.2.1
+Image[4]=yayoi_suiden_3.2.4
+---
+obj=field
+name=Yayoi_Suiden_3_R3
+copyright=Simutrans Yayoi Project
+Image[0]=yayoi_suiden_3.3.2
+Image[1]=yayoi_suiden_3.3.3
+Image[2]=yayoi_suiden_3.3.0
+Image[3]=yayoi_suiden_3.3.1
+Image[4]=yayoi_suiden_3.3.4

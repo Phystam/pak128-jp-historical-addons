@@ -1,0 +1,24 @@
+# =========================================================================
+# Yayoi Period Goods Definitions (混載貨物・Piece Goods catg=1)
+# - rice: Produced by Yayoi Suiden (水田)
+# - pottery: Produced by Yayoi Doki Workshop (土器製作所)
+# =========================================================================
+obj=good
+name=rice
+copyright=Simutrans Yayoi Project
+metric=t
+catg=1
+value=180
+speed_bonus=5
+weight_per_unit=100
+mapcolor=215
+---
+obj=good
+name=pottery
+copyright=Simutrans Yayoi Project
+metric=t
+catg=1
+value=220
+speed_bonus=10
+weight_per_unit=100
+mapcolor=128

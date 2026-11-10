@@ -1,0 +1,22 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'building'
+
+obj=building
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || ''}
+
+type=#{excel!('type')}
+level=#{excel('level') || 1}
+chance=#{excel('chance') || 100}
+
+intro_year=#{excel('intro_year') || 1}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 2999}
+retire_month=#{excel('retire_month') || 1}
+
+needs_ground=#{excel('needs_ground') || 1}
+---
