@@ -81,7 +81,18 @@ Blender上でSimutrans規格（pak128用等角投影カメラ・画面固定サ�
   - `bpy.context.scene.simutrans.filter_size = 1.5`
   （※ 詳細は [`simutrans_blender.md`](./simutrans_blender.md) を参照）
 
-### ④ ビルド環境の準備（Ruby・makeobj）
+### ④ レンダリング時の原色混入（Z-fightingノイズ）の注意点
+Simutrans Blender Kitによるレンダリング時、低解像度の直交投影（等角投影）環境において、メッシュ同士がミリ単位でスレスレに重なり合っている部分（Z-fighting）や微小な鋭角交差（スライバーポリゴン）があると、深度バッファ判定やシェーダーの法線微分計算が破綻し、出力画像のエッジにマゼンタやシアン、蛍光グリーンなどの意図しない原色ノイズが混入する現象が発生します。
+
+- **基本的な回避方針**:
+  - 接合パーツ（柱、梁、棟木、千木など）は相手の表面スレスレで止めず、内部深くまでしっかりと埋め込む（貫通深度を確保する）。
+  - 屋根の裾面は土台マウンドを完全に貫通して接地面（$Z=0$）まで落とし、同高度での面の近接・競合を避ける。
+  - レンダリング後は `bpy.ops.simutrans.check_colors()` を実行し、異常ピクセルやSimutrans予約色（プレイヤーカラー、透過キー色等）の混入がないか確認する。
+
+> [!TIP]
+> 原色混入の詳しい発生メカニズムおよびモデリングでの具体的な修正手順については、[`simutrans_blender.md`（レンダリング時の原色混入対策）](./simutrans_blender.md#7-レンダリング時の原色混入z-fighting微小交差ノイズ対策) にまとめてあるのでそちらを確認してください。
+
+### ⑤ ビルド環境の準備（Ruby・makeobj）
 - **Ruby**: Ruby 3.x（`ruby -v` で確認可能。dattプリプロセッサおよびビルドパイプライン実行に必要）
   - 必要gem: `roo`（Excel読み込み用。`gem install roo`）
 - **makeobj**: `makeobj/makeobj.exe` に配置済み（pak128対応バイナリ）
