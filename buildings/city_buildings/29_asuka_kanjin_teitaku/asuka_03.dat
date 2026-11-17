@@ -1,0 +1,26 @@
+---
+name=Asuka_03_Kanjin_Teitaku
+
+obj=building
+copyright=JP Historical Project
+
+type=res
+level=4
+chance=90
+
+intro_year=650
+intro_month=1
+retire_year=900
+retire_month=1
+
+needs_ground=1
+needs_ground=1
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=asuka_03.0.0
+BackImage[0][0][0][0][0][1]=asuka_03.0.1
+BackImage[1][0][0][0][0][0]=asuka_03.0.2
+BackImage[1][0][0][0][0][1]=asuka_03.0.3
+BackImage[2][0][0][0][0][0]=asuka_03.1.0
+BackImage[2][0][0][0][0][1]=asuka_03.1.1
+BackImage[3][0][0][0][0][0]=asuka_03.1.2
+BackImage[3][0][0][0][0][1]=asuka_03.1.3

@@ -2,7 +2,7 @@
 name=Yayoi_Canal_Port_Storage
 
 obj=building
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 type=stop
 waytype=water
@@ -10,7 +10,7 @@ level=5
 capacity=40
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=900
 retire_month=1
 
 cost=8000

@@ -16,7 +16,7 @@ runningcost=5
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=4
@@ -55,7 +55,7 @@ runningcost=8
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=7
@@ -94,7 +94,7 @@ runningcost=14
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=10
@@ -133,7 +133,7 @@ runningcost=5
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=4
@@ -172,7 +172,7 @@ runningcost=8
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=7
@@ -211,7 +211,7 @@ runningcost=14
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=800
 retire_month=1
 engine_type=bio
 length=10

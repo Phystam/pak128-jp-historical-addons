@@ -100,6 +100,9 @@ When the user comments on the outcome ("looks great", "make it darker", "undo"),
 >
 > **5. Handle 3D Generation Timeouts Gracefully:**
 > If `generate_3d` returns `{"job": "..."}`, poll with `generate_3d(job=..., name=...)`. Never fire a new generation request for the same item.
+>
+> **6. Never Call `bpy.ops.wm.read_factory_settings()`:**
+> Calling `read_factory_settings` resets the Blender MCP server and drops the connection. To reset/clear a scene, remove `bpy.data.objects`, `meshes`, `materials`, and non-scene `collections` directly via Python instead.
 
 ---
 

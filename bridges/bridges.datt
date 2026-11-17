@@ -1,0 +1,25 @@
+%require_excel 'parameters.xlsx'
+
+---
+%resource 'bridge'
+
+obj=bridge
+%%addon excel!('addon') == '含'
+%%ja excel!('japanese')
+%%en excel!('english')
+copyright=#{excel('copyright') || ''}
+
+waytype=#{excel!('waytype')}
+intro_year=#{excel('intro_year') || 400}
+intro_month=#{excel('intro_month') || 1}
+retire_year=#{excel('retire_year') || 1900}
+retire_month=#{excel('retire_month') || 1}
+
+topspeed=#{excel('topspeed') || 20}
+axle_load=#{excel('max_weight') || 15}
+cost=#{excel('cost') || 2000}
+maintenance=#{excel('maintenance') || 50}
+max_length=#{excel('max_length') || 5}
+max_height=#{excel('max_height') || 4}
+pillar_distance=#{excel('pillar_distance') || 1}
+---

@@ -1,0 +1,16 @@
+%require '../../buildings.datt'
+
+---
+name=Kofun_01_Kamado_Tateana
+%include 'building'
+needs_ground=1
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=kofun_01.0.0
+BackImage[0][0][0][0][0][1]=kofun_01.0.1
+BackImage[1][0][0][0][0][0]=kofun_01.0.2
+BackImage[1][0][0][0][0][1]=kofun_01.0.3
+BackImage[2][0][0][0][0][0]=kofun_01.1.0
+BackImage[2][0][0][0][0][1]=kofun_01.1.1
+BackImage[3][0][0][0][0][0]=kofun_01.1.2
+BackImage[3][0][0][0][0][1]=kofun_01.1.3
+---

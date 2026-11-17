@@ -1,0 +1,10 @@
+%require '../crossings.datt'
+
+---
+name=Yayoi_Moat_Wood_Crossing
+%include 'crossing'
+openimage[ns][0]=yayoi_moat_bridge.0.0
+openimage[ew][0]=yayoi_moat_bridge.0.1
+closedimage[ns][0]=yayoi_moat_bridge.0.0
+closedimage[ew][0]=yayoi_moat_bridge.0.1
+---

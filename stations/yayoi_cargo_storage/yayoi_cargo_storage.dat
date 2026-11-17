@@ -2,7 +2,7 @@
 name=Yayoi_Cargo_Storage_Extension
 
 obj=building
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 type=extension
 waytype=road
@@ -10,7 +10,7 @@ level=2
 capacity=32
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=900
 retire_month=1
 
 cost=3000
@@ -46,7 +46,7 @@ BackImage[3][0][0][0][0][4]=yayoi_cargo_storage.3.4
 name=Yayoi_Cargo_Storage_Building
 
 obj=building
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 type=cur
 waytype=road
@@ -54,7 +54,7 @@ level=1
 capacity=0
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=900
 retire_month=1
 
 cost=1000

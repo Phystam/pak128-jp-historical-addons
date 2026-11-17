@@ -1,0 +1,18 @@
+%require '../depots.datt'
+
+---
+name=Kofun_Umaya_Depot
+%include 'depot'
+dims=1,1,4
+needs_ground=1
+icon=> kofun_umaya_depot_icon.0.0
+cursor=kofun_umaya_depot.0.0
+BackImage[0][0][0][0][0][0]=kofun_umaya_depot.0.0
+BackImage[0][0][0][0][0][1]=kofun_umaya_depot.0.1
+BackImage[1][0][0][0][0][0]=kofun_umaya_depot.0.2
+BackImage[1][0][0][0][0][1]=kofun_umaya_depot.0.3
+BackImage[2][0][0][0][0][0]=kofun_umaya_depot.1.0
+BackImage[2][0][0][0][0][1]=kofun_umaya_depot.1.1
+BackImage[3][0][0][0][0][0]=kofun_umaya_depot.1.2
+BackImage[3][0][0][0][0][1]=kofun_umaya_depot.1.3
+---

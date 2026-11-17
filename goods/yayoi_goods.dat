@@ -2,10 +2,14 @@
 # Yayoi Period Goods Definitions (混載貨物・Piece Goods catg=1)
 # - rice: Produced by Yayoi Suiden (水田)
 # - pottery: Produced by Yayoi Doki Workshop (土器製作所)
+# - wood_fuel: Produced by Wood Fuel Workshop (木質燃料生産所)
+# - salt: Produced by Pottery Saltworks (土器製塩所)
+# - fresh_fish: Produced by Offshore Fishing Ground (沖合漁場)
+# - dried_fish: Produced by Dried Fish Workshop (干物加工所)
 # =========================================================================
 obj=good
 name=rice
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 metric=t
 catg=1
 value=180
@@ -15,10 +19,50 @@ mapcolor=215
 ---
 obj=good
 name=pottery
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 metric=t
 catg=1
 value=220
 speed_bonus=10
 weight_per_unit=100
 mapcolor=128
+---
+obj=good
+name=wood_fuel
+copyright=JP Historical Project
+metric=t
+catg=1
+value=120
+speed_bonus=3
+weight_per_unit=100
+mapcolor=114
+---
+obj=good
+name=salt
+copyright=JP Historical Project
+metric=t
+catg=1
+value=260
+speed_bonus=8
+weight_per_unit=100
+mapcolor=213
+---
+obj=good
+name=fresh_fish
+copyright=JP Historical Project
+metric=t
+catg=1
+value=200
+speed_bonus=15
+weight_per_unit=100
+mapcolor=148
+---
+obj=good
+name=dried_fish
+copyright=JP Historical Project
+metric=t
+catg=1
+value=280
+speed_bonus=8
+weight_per_unit=100
+mapcolor=164

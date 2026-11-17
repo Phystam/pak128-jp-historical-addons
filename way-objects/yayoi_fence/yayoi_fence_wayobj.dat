@@ -2,12 +2,12 @@
 name=Yayoi_Palisade_Fence_Moat_Overlay
 
 obj=way-object
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 waytype=water
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=700
 retire_month=1
 
 cost=1000
@@ -77,12 +77,12 @@ frontdiagonal[sw]=yayoi_fence_wayobj.6.7
 name=Yayoi_Palisade_Fence_Road_Overlay
 
 obj=way-object
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 waytype=road
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=700
 retire_month=1
 
 cost=1000

@@ -2,7 +2,7 @@
 name=Yayoi_Sea_Harbour
 
 obj=building
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 type=harbour
 waytype=water
@@ -10,7 +10,7 @@ level=4
 capacity=64
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=900
 retire_month=1
 
 cost=12000

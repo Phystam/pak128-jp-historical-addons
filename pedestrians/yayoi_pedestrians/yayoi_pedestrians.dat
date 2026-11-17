@@ -2,11 +2,11 @@
 name=Yayoi_Pedestrian_Hemp_Standard
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=30
 image[s]=yayoi_pedestrians.0.0
@@ -21,11 +21,11 @@ image[nw]=yayoi_pedestrians.0.7
 name=Yayoi_Pedestrian_Hemp_Tall
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=20
 image[s]=yayoi_pedestrians.1.0
@@ -40,11 +40,11 @@ image[nw]=yayoi_pedestrians.1.7
 name=Yayoi_Pedestrian_Hemp_Short
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=15
 image[s]=yayoi_pedestrians.2.0
@@ -59,11 +59,11 @@ image[nw]=yayoi_pedestrians.2.7
 name=Yayoi_Pedestrian_White_Standard
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=20
 image[s]=yayoi_pedestrians.3.0
@@ -78,11 +78,11 @@ image[nw]=yayoi_pedestrians.3.7
 name=Yayoi_Pedestrian_White_Tall
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=10
 image[s]=yayoi_pedestrians.4.0
@@ -97,11 +97,11 @@ image[nw]=yayoi_pedestrians.4.7
 name=Yayoi_Pedestrian_White_Short
 
 obj=pedestrian
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=710
 retire_month=1
 distributionweight=5
 image[s]=yayoi_pedestrians.5.0

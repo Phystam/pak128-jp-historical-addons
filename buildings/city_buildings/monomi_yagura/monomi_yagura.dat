@@ -2,7 +2,7 @@
 name=Monomi_Yagura
 
 obj=building
-copyright=
+copyright=JP Historical Project
 
 type=cur
 level=2
@@ -10,7 +10,7 @@ chance=100
 
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=550
 retire_month=1
 
 needs_ground=1

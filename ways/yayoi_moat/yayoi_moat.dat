@@ -2,12 +2,12 @@
 name=Yayoi_Moat_10m
 
 obj=way
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 waytype=water
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=900
 retire_month=1
 
 topspeed=20

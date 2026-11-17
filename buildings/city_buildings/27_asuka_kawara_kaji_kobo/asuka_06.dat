@@ -1,0 +1,26 @@
+---
+name=Asuka_06_Kawara_Kaji_Kobo
+
+obj=building
+copyright=JP Historical Project
+
+type=ind
+level=3
+chance=100
+
+intro_year=600
+intro_month=1
+retire_year=900
+retire_month=1
+
+needs_ground=1
+needs_ground=1
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=asuka_06.0.0
+BackImage[0][0][0][0][0][1]=asuka_06.0.1
+BackImage[1][0][0][0][0][0]=asuka_06.0.2
+BackImage[1][0][0][0][0][1]=asuka_06.0.3
+BackImage[2][0][0][0][0][0]=asuka_06.1.0
+BackImage[2][0][0][0][0][1]=asuka_06.1.1
+BackImage[3][0][0][0][0][0]=asuka_06.1.2
+BackImage[3][0][0][0][0][1]=asuka_06.1.3

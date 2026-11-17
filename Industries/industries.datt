@@ -7,7 +7,7 @@ obj=factory
 %%addon excel!('addon') == '含'
 %%ja excel!('japanese')
 %%en excel!('english')
-copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+copyright=#{excel('copyright') || 'JP Historical Project'}
 
 intro_year=#{excel('intro_year') || 1}
 intro_month=#{excel('intro_month') || 1}
@@ -28,7 +28,7 @@ obj=field
 %%addon excel!('addon') == '含'
 %%ja excel!('japanese')
 %%en excel!('english')
-copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+copyright=#{excel('copyright') || 'JP Historical Project'}
 ---
 
 ---
@@ -38,7 +38,7 @@ obj=building
 %%addon excel!('addon') == '含'
 %%ja excel!('japanese')
 %%en excel!('english')
-copyright=#{excel('copyright') || 'Simutrans Yayoi Project'}
+copyright=#{excel('copyright') || 'JP Historical Project'}
 
 type=#{excel('type') || 'cur'}
 level=#{excel('level') || 1}

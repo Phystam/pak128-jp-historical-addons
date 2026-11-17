@@ -1,0 +1,16 @@
+%require '../../buildings.datt'
+
+---
+name=Asuka_07_Itabuki_Pair
+%include 'building'
+needs_ground=1
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=asuka_07.0.0
+BackImage[0][0][0][0][0][1]=asuka_07.0.1
+BackImage[1][0][0][0][0][0]=asuka_07.0.2
+BackImage[1][0][0][0][0][1]=asuka_07.0.3
+BackImage[2][0][0][0][0][0]=asuka_07.1.0
+BackImage[2][0][0][0][0][1]=asuka_07.1.1
+BackImage[3][0][0][0][0][0]=asuka_07.1.2
+BackImage[3][0][0][0][0][1]=asuka_07.1.3
+---

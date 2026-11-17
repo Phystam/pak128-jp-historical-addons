@@ -20,6 +20,7 @@ CATEGORIES = %w[
   Industries
   ways
   way-objects
+  bridges
   stations
   vehicles
   citycars
@@ -86,7 +87,7 @@ class Make
     puts "=========================================================="
     puts " Full Build Pipeline Finished Successfully!"
     puts " Output package: build/JP_Historical_all.pak"
-    puts " Output text   : build/text/ja.tab"
+    puts " Output text   : build/text/ja.historical.tab"
     puts "=========================================================="
   end
 
@@ -213,15 +214,15 @@ class Make
   end
 
   def maketab
-    puts "=== Step: Generating build/text/ja.tab and en.tab ==="
+    puts "=== Step: Generating build/text/ja.historical.tab and en.tab ==="
     FileUtils.mkdir_p(@build_text_dir)
 
-    # 1. ja.tab
+    # 1. ja.historical.tab
     jatab_files = Dir.glob("#{@base_dir}/**/*.jatab")
     base_ja = File.join(@base_dir, 'text', 'ja.tab')
     jatab_files << base_ja if File.exist?(base_ja)
 
-    target_ja = File.join(@build_text_dir, 'ja.tab')
+    target_ja = File.join(@build_text_dir, 'ja.historical.tab')
     File.open(target_ja, 'w', encoding: 'utf-8') do |out|
       out.print '§'
       jatab_files.uniq.each do |f|
@@ -231,7 +232,7 @@ class Make
         end
       end
     end
-    puts "  Created: build/text/ja.tab (#{File.size(target_ja)} bytes)"
+    puts "  Created: build/text/ja.historical.tab (#{File.size(target_ja)} bytes)"
 
     # 2. en.tab
     entab_files = Dir.glob("#{@base_dir}/**/*.entab")

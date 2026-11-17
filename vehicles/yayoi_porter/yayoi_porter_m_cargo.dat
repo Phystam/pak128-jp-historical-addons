@@ -1,6 +1,6 @@
 obj=vehicle
 name=Yayoi_Porter_Medium_Cargo
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 waytype=road
 
 # --- economy -------------------------------------------------------------

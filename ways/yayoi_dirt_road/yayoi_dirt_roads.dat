@@ -2,12 +2,12 @@
 name=Yayoi_Dirt_Road_10m
 
 obj=way
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 waytype=road
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=1200
 retire_month=1
 
 topspeed=20
@@ -78,12 +78,12 @@ diagonal[sw][1]=yayoi_dirt_road_10m.6.7
 name=Yayoi_Dirt_Road_14m
 
 obj=way
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 
 waytype=road
 intro_year=1
 intro_month=1
-retire_year=2999
+retire_year=1200
 retire_month=1
 
 topspeed=25

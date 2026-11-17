@@ -1,0 +1,41 @@
+obj=vehicle
+name=Kofun_Horse_4_Post
+copyright=JP Historical Project
+waytype=road
+
+# --- economy -------------------------------------------------------------
+# cost/runningcost are in cents; runningcost is per km.
+# Omit intro_year and you silently get the engine default.
+cost=58000
+runningcost=18
+intro_year=390
+retire_year=2999
+
+# --- physics -------------------------------------------------------------
+# engine_type: steam|diesel|electric|bio|sail|hydrogene|fuel_cell|battery
+# speed km/h, power kW (0 = unpowered wagon), gear % (100 = neutral),
+# weight tonnes (empty), length in 1/16 of a tile (OBJECT_OFFSET_STEPS=16).
+engine_type=bio
+speed=15
+power=8
+gear=100
+weight=2
+length=8
+
+# --- payload -------------------------------------------------------------
+# freight: None|Passagiere|Post|<goods name>
+freight=Post
+payload=12
+
+# --- coupling ------------------------------------------------------------
+# unconstrained: this vehicle couples to anything
+
+# --- graphics (generated - do not hand-edit) -----------------------------
+EmptyImage[s]=kofun_horse_4_post.0.0
+EmptyImage[w]=kofun_horse_4_post.0.1
+EmptyImage[sw]=kofun_horse_4_post.0.2
+EmptyImage[se]=kofun_horse_4_post.0.3
+EmptyImage[n]=kofun_horse_4_post.1.0
+EmptyImage[e]=kofun_horse_4_post.1.1
+EmptyImage[ne]=kofun_horse_4_post.1.2
+EmptyImage[nw]=kofun_horse_4_post.1.3

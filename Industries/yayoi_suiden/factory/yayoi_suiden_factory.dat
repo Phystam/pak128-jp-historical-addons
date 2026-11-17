@@ -4,7 +4,7 @@
 # Automatically spawns the 3 rice paddy variants in all 4 rotational orientations (12 field classes).
 obj=factory
 name=Yayoi_Suiden_Factory
-copyright=Simutrans Yayoi Project
+copyright=JP Historical Project
 location=Land
 mapcolor=162
 productivity=20
