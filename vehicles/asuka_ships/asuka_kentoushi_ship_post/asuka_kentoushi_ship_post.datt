@@ -1,0 +1,25 @@
+%require '../../vehicles.datt'
+
+---
+name=Asuka_Kentoushi_Ship_Post
+%include 'vehicle'
+engine_type=sail
+length=15
+freightimagetype[0]=Post
+EmptyImage[s]=asuka_kentoushi_ship_post.0.0
+EmptyImage[w]=asuka_kentoushi_ship_post.0.1
+EmptyImage[sw]=asuka_kentoushi_ship_post.0.2
+EmptyImage[se]=asuka_kentoushi_ship_post.0.3
+EmptyImage[n]=asuka_kentoushi_ship_post.1.0
+EmptyImage[e]=asuka_kentoushi_ship_post.1.1
+EmptyImage[ne]=asuka_kentoushi_ship_post.1.2
+EmptyImage[nw]=asuka_kentoushi_ship_post.1.3
+FreightImage[0][s]=asuka_kentoushi_ship_post.2.0
+FreightImage[0][w]=asuka_kentoushi_ship_post.2.1
+FreightImage[0][sw]=asuka_kentoushi_ship_post.2.2
+FreightImage[0][se]=asuka_kentoushi_ship_post.2.3
+FreightImage[0][n]=asuka_kentoushi_ship_post.3.0
+FreightImage[0][e]=asuka_kentoushi_ship_post.3.1
+FreightImage[0][ne]=asuka_kentoushi_ship_post.3.2
+FreightImage[0][nw]=asuka_kentoushi_ship_post.3.3
+---

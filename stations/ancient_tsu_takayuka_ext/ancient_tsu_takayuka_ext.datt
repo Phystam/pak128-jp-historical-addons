@@ -1,0 +1,20 @@
+%require '../stations.datt'
+
+---
+name=Ancient_Tsu_Takayuka_Ext
+%include 'station'
+dims=1,1,4
+needs_ground=1
+enables_ware=1
+allow_underground=0
+icon=> ancient_tsu_takayuka_ext_icon.0.0
+cursor=ancient_tsu_takayuka_ext.0.0
+BackImage[0][0][0][0][0][0]=ancient_tsu_takayuka_ext.0.0
+BackImage[0][0][0][0][0][1]=ancient_tsu_takayuka_ext.0.1
+BackImage[1][0][0][0][0][0]=ancient_tsu_takayuka_ext.0.2
+BackImage[1][0][0][0][0][1]=ancient_tsu_takayuka_ext.0.3
+BackImage[2][0][0][0][0][0]=ancient_tsu_takayuka_ext.1.0
+BackImage[2][0][0][0][0][1]=ancient_tsu_takayuka_ext.1.1
+BackImage[3][0][0][0][0][0]=ancient_tsu_takayuka_ext.1.2
+BackImage[3][0][0][0][0][1]=ancient_tsu_takayuka_ext.1.3
+---

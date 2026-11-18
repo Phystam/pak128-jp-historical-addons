@@ -1,0 +1,18 @@
+%require '../depots.datt'
+
+---
+name=Ancient_Shipyard_Depot
+%include 'depot'
+dims=1,1,4
+needs_ground=1
+icon=> ancient_shipyard_depot_icon.0.0
+cursor=ancient_shipyard_depot.0.0
+BackImage[0][0][0][0][0][0]=ancient_shipyard_depot.0.0
+BackImage[0][0][0][0][0][1]=ancient_shipyard_depot.0.1
+BackImage[1][0][0][0][0][0]=ancient_shipyard_depot.0.2
+BackImage[1][0][0][0][0][1]=ancient_shipyard_depot.0.3
+BackImage[2][0][0][0][0][0]=ancient_shipyard_depot.1.0
+BackImage[2][0][0][0][0][1]=ancient_shipyard_depot.1.1
+BackImage[3][0][0][0][0][0]=ancient_shipyard_depot.1.2
+BackImage[3][0][0][0][0][1]=ancient_shipyard_depot.1.3
+---

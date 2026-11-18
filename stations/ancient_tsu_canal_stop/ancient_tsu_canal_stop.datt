@@ -1,0 +1,16 @@
+%require '../stations.datt'
+
+---
+name=Ancient_Tsu_Canal_Stop
+%include 'station'
+dims=1,1,48
+enables_pax=1
+enables_post=1
+enables_ware=1
+allow_underground=0
+icon=> ancient_tsu_canal_stop_icon.0.0
+cursor=ancient_tsu_canal_stop.0.0
+%lines (0..15).map { |l| row = ((l & 8) != 0) ? 1 : 0; col = l.even? ? 0 : 2; "BackImage[#{l}][0][0][0][0][0]=ancient_tsu_canal_stop.#{row}.#{col}\nBackImage[#{l}][0][0][0][0][1]=ancient_tsu_canal_stop.#{row}.#{col + 1}" }.join("\n")
+%lines (16..31).map { |l| row = ((l & 8) != 0) ? 1 : 0; "BackImage[#{l}][0][0][0][0][0]=ancient_tsu_canal_stop.#{row}.0\nBackImage[#{l}][0][0][0][0][1]=ancient_tsu_canal_stop.#{row}.1" }.join("\n")
+%lines (32..47).map { |l| row = ((l & 8) != 0) ? 1 : 0; "BackImage[#{l}][0][0][0][0][0]=ancient_tsu_canal_stop.#{row}.2\nBackImage[#{l}][0][0][0][0][1]=ancient_tsu_canal_stop.#{row}.3" }.join("\n")
+---

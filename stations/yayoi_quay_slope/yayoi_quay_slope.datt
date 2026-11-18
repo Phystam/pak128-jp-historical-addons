@@ -1,0 +1,22 @@
+%require '../stations.datt'
+
+---
+name=Yayoi_Quay_Slope
+%include 'station'
+dims=1,1,4
+needs_ground=0
+enables_pax=1
+enables_post=1
+enables_ware=1
+allow_underground=0
+icon=> yayoi_quay_slope_icon.0.0
+cursor=yayoi_quay_slope.0.0
+BackImage[0][0][0][0][0][0]=yayoi_quay_slope.0.0
+BackImage[0][0][0][0][0][1]=yayoi_quay_slope.0.1
+BackImage[1][0][0][0][0][0]=yayoi_quay_slope.0.2
+BackImage[1][0][0][0][0][1]=yayoi_quay_slope.0.3
+BackImage[2][0][0][0][0][0]=yayoi_quay_slope.1.0
+BackImage[2][0][0][0][0][1]=yayoi_quay_slope.1.1
+BackImage[3][0][0][0][0][0]=yayoi_quay_slope.1.2
+BackImage[3][0][0][0][0][1]=yayoi_quay_slope.1.3
+---

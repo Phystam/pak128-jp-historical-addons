@@ -1,0 +1,23 @@
+%require '../../vehicles.datt'
+
+---
+name=Kofun_Large_Junkouzousen_Cargo
+%include 'vehicle'
+engine_type=sail
+length=14
+freightimagetype[0]=rice
+freightimagetype[1]=pottery
+freightimagetype[2]=salt
+freightimagetype[3]=wood_fuel
+freightimagetype[4]=fresh_fish
+freightimagetype[5]=dried_fish
+EmptyImage[s]=kofun_large_junkouzousen_cargo.0.0
+EmptyImage[w]=kofun_large_junkouzousen_cargo.0.1
+EmptyImage[sw]=kofun_large_junkouzousen_cargo.0.2
+EmptyImage[se]=kofun_large_junkouzousen_cargo.0.3
+EmptyImage[n]=kofun_large_junkouzousen_cargo.1.0
+EmptyImage[e]=kofun_large_junkouzousen_cargo.1.1
+EmptyImage[ne]=kofun_large_junkouzousen_cargo.1.2
+EmptyImage[nw]=kofun_large_junkouzousen_cargo.1.3
+%lines (0..5).map { |i| "FreightImage[#{i}][s]=kofun_large_junkouzousen_cargo.2.0\nFreightImage[#{i}][w]=kofun_large_junkouzousen_cargo.2.1\nFreightImage[#{i}][sw]=kofun_large_junkouzousen_cargo.2.2\nFreightImage[#{i}][se]=kofun_large_junkouzousen_cargo.2.3\nFreightImage[#{i}][n]=kofun_large_junkouzousen_cargo.3.0\nFreightImage[#{i}][e]=kofun_large_junkouzousen_cargo.3.1\nFreightImage[#{i}][ne]=kofun_large_junkouzousen_cargo.3.2\nFreightImage[#{i}][nw]=kofun_large_junkouzousen_cargo.3.3" }.join("\n")
+---
