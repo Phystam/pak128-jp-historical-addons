@@ -1,0 +1,43 @@
+---
+name=Ancient_Tatara_Furnace
+
+obj=factory
+copyright=JP Historical Project
+
+intro_year=540
+intro_month=1
+retire_year=1600
+retire_month=1
+
+location=Land
+mapcolor=68
+Productivity=28
+Range=22
+distributionweight=5
+# =========================================================================
+# Ancient Tatara Smelting Furnace (たたら製鉄場・箱型たたら炉)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Ancient_Tatara_Furnace
+dims=1,1,4
+level=3
+needs_ground=1
+inputgood[0]=iron_sand
+inputcapacity[0]=120
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=wood_fuel
+inputcapacity[1]=140
+inputfactor[1]=120
+inputsupplier[1]=1
+outputgood[0]=crude_iron
+outputcapacity[0]=120
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=ancient_tatara_furnace.0.0
+BackImage[0][0][0][0][0][1]=ancient_tatara_furnace.0.1
+BackImage[1][0][0][0][0][0]=ancient_tatara_furnace.0.2
+BackImage[1][0][0][0][0][1]=ancient_tatara_furnace.0.3
+BackImage[2][0][0][0][0][0]=ancient_tatara_furnace.1.0
+BackImage[2][0][0][0][0][1]=ancient_tatara_furnace.1.1
+BackImage[3][0][0][0][0][0]=ancient_tatara_furnace.1.2
+BackImage[3][0][0][0][0][1]=ancient_tatara_furnace.1.3

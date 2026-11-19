@@ -1,0 +1,47 @@
+---
+name=Asuka_Sake_Brewery
+
+obj=factory
+copyright=JP Historical Project
+
+intro_year=600
+intro_month=1
+retire_year=1200
+retire_month=1
+
+location=Land
+mapcolor=210
+Productivity=28
+Range=22
+distributionweight=5
+# =========================================================================
+# Asuka Ancient Sake Brewery (飛鳥・古代の造酒工房 - 板葺き造酒殿・須恵器大甕)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Asuka_Sake_Brewery
+dims=1,1,4
+level=3
+needs_ground=1
+inputgood[0]=rice
+inputcapacity[0]=160
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=wood_fuel
+inputcapacity[1]=100
+inputfactor[1]=50
+inputsupplier[1]=1
+inputgood[2]=pottery
+inputcapacity[2]=80
+inputfactor[2]=40
+inputsupplier[2]=1
+outputgood[0]=sake
+outputcapacity[0]=140
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=asuka_sake_brewery.0.0
+BackImage[0][0][0][0][0][1]=asuka_sake_brewery.0.1
+BackImage[1][0][0][0][0][0]=asuka_sake_brewery.0.2
+BackImage[1][0][0][0][0][1]=asuka_sake_brewery.0.3
+BackImage[2][0][0][0][0][0]=asuka_sake_brewery.1.0
+BackImage[2][0][0][0][0][1]=asuka_sake_brewery.1.1
+BackImage[3][0][0][0][0][0]=asuka_sake_brewery.1.2
+BackImage[3][0][0][0][0][1]=asuka_sake_brewery.1.3

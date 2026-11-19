@@ -1,0 +1,101 @@
+# =========================================================================
+# Ancient Japanese Goods Definitions (混載貨物・Piece Goods catg=1)
+# - millet: Produced by Dryfield / Millet Farm (雑穀畑)
+# - sake: Produced by Ancient Sake Brewery (酒造工房) from rice
+# - raw_stone: Produced by Open Stone Quarry (露天採石場)
+# - stone_goods: Produced by Stone & Jade Workshop (石器・玉作工房)
+# - raw_meat: Produced by Hunting Ground / Livestock Farm (狩猟場・畜産場)
+# - cured_meat: Produced by Meat Curing Workshop (肉加工所) from raw_meat + salt
+# - iron_sand: Produced by Iron Sand Pit (砂鉄採取場, 540+)
+# - crude_iron: Produced by Tatara Furnace (たたら製鉄場, 540+)
+# - ironware: Produced by Blacksmith Workshop (鍛冶工房, 540+)
+# =========================================================================
+obj=good
+name=millet
+copyright=JP Historical Project
+metric=t
+catg=1
+value=150
+speed_bonus=5
+weight_per_unit=100
+mapcolor=199
+---
+obj=good
+name=sake
+copyright=JP Historical Project
+metric=t
+catg=1
+value=400
+speed_bonus=10
+weight_per_unit=100
+mapcolor=210
+---
+obj=good
+name=raw_stone
+copyright=JP Historical Project
+metric=t
+catg=1
+value=160
+speed_bonus=3
+weight_per_unit=100
+mapcolor=119
+---
+obj=good
+name=stone_goods
+copyright=JP Historical Project
+metric=t
+catg=1
+value=300
+speed_bonus=8
+weight_per_unit=100
+mapcolor=94
+---
+obj=good
+name=raw_meat
+copyright=JP Historical Project
+metric=t
+catg=1
+value=210
+speed_bonus=15
+weight_per_unit=100
+mapcolor=135
+---
+obj=good
+name=cured_meat
+copyright=JP Historical Project
+metric=t
+catg=1
+value=340
+speed_bonus=8
+weight_per_unit=100
+mapcolor=124
+---
+obj=good
+name=iron_sand
+copyright=JP Historical Project
+metric=t
+catg=1
+value=170
+speed_bonus=3
+weight_per_unit=100
+mapcolor=56
+---
+obj=good
+name=crude_iron
+copyright=JP Historical Project
+metric=t
+catg=1
+value=320
+speed_bonus=5
+weight_per_unit=100
+mapcolor=68
+---
+obj=good
+name=ironware
+copyright=JP Historical Project
+metric=t
+catg=1
+value=420
+speed_bonus=8
+weight_per_unit=100
+mapcolor=76

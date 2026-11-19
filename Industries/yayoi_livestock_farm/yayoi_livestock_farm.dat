@@ -1,0 +1,35 @@
+---
+name=Yayoi_Livestock_Farm
+
+obj=factory
+copyright=JP Historical Project
+
+intro_year=1
+intro_month=1
+retire_year=680
+retire_month=1
+
+location=Land
+mapcolor=135
+Productivity=26
+Range=20
+distributionweight=5
+# =========================================================================
+# Yayoi-Kofun Pig & Poultry Farm (弥生〜古墳の養豚・養鶏場)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Yayoi_Livestock_Farm
+dims=1,1,4
+level=2
+needs_ground=1
+outputgood[0]=raw_meat
+outputcapacity[0]=140
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=yayoi_livestock_farm.0.0
+BackImage[0][0][0][0][0][1]=yayoi_livestock_farm.0.1
+BackImage[1][0][0][0][0][0]=yayoi_livestock_farm.0.2
+BackImage[1][0][0][0][0][1]=yayoi_livestock_farm.0.3
+BackImage[2][0][0][0][0][0]=yayoi_livestock_farm.1.0
+BackImage[2][0][0][0][0][1]=yayoi_livestock_farm.1.1
+BackImage[3][0][0][0][0][0]=yayoi_livestock_farm.1.2
+BackImage[3][0][0][0][0][1]=yayoi_livestock_farm.1.3

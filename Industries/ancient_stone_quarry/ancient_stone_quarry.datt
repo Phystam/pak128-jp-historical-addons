@@ -1,0 +1,25 @@
+%require '../industries.datt'
+
+---
+name=Ancient_Stone_Quarry
+%include 'industry'
+# =========================================================================
+# Ancient Open Stone & Jade Quarry (古代の露天採石・原石採取場)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Ancient_Stone_Quarry
+dims=1,1,4
+level=2
+needs_ground=1
+outputgood[0]=raw_stone
+outputcapacity[0]=140
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=ancient_stone_quarry.0.0
+BackImage[0][0][0][0][0][1]=ancient_stone_quarry.0.1
+BackImage[1][0][0][0][0][0]=ancient_stone_quarry.0.2
+BackImage[1][0][0][0][0][1]=ancient_stone_quarry.0.3
+BackImage[2][0][0][0][0][0]=ancient_stone_quarry.1.0
+BackImage[2][0][0][0][0][1]=ancient_stone_quarry.1.1
+BackImage[3][0][0][0][0][0]=ancient_stone_quarry.1.2
+BackImage[3][0][0][0][0][1]=ancient_stone_quarry.1.3
+---

@@ -1,0 +1,56 @@
+---
+name=Asuka_Market_Food
+
+obj=factory
+copyright=JP Historical Project
+
+intro_year=595
+intro_month=1
+retire_year=1200
+retire_month=1
+
+location=city
+mapcolor=208
+Productivity=32
+Range=24
+distributionweight=5
+# =========================================================================
+# Asuka Food Market (飛鳥の食料市 - 市門・板葺き市舎)
+# - 1x1 City Consumer (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Asuka_Market_Food
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=rice
+inputcapacity[0]=200
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=millet
+inputcapacity[1]=160
+inputfactor[1]=100
+inputsupplier[1]=1
+inputgood[2]=salt
+inputcapacity[2]=140
+inputfactor[2]=80
+inputsupplier[2]=1
+inputgood[3]=dried_fish
+inputcapacity[3]=140
+inputfactor[3]=80
+inputsupplier[3]=1
+inputgood[4]=cured_meat
+inputcapacity[4]=140
+inputfactor[4]=80
+inputsupplier[4]=1
+inputgood[5]=sake
+inputcapacity[5]=120
+inputfactor[5]=60
+inputsupplier[5]=1
+BackImage[0][0][0][0][0][0]=asuka_market_food.0.0
+BackImage[0][0][0][0][0][1]=asuka_market_food.0.1
+BackImage[1][0][0][0][0][0]=asuka_market_food.0.2
+BackImage[1][0][0][0][0][1]=asuka_market_food.0.3
+BackImage[2][0][0][0][0][0]=asuka_market_food.1.0
+BackImage[2][0][0][0][0][1]=asuka_market_food.1.1
+BackImage[3][0][0][0][0][0]=asuka_market_food.1.2
+BackImage[3][0][0][0][0][1]=asuka_market_food.1.3

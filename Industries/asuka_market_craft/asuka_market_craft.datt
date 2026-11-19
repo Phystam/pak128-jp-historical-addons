@@ -1,0 +1,38 @@
+%require '../industries.datt'
+
+---
+name=Asuka_Market_Craft
+%include 'industry'
+# =========================================================================
+# Asuka Craft & Tool Market (飛鳥の器物・道具市 - 板倉・交易市)
+# - 1x1 City Consumer (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Asuka_Market_Craft
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=pottery
+inputcapacity[0]=140
+inputfactor[0]=90
+inputsupplier[0]=1
+inputgood[1]=stone_goods
+inputcapacity[1]=120
+inputfactor[1]=80
+inputsupplier[1]=1
+inputgood[2]=ironware
+inputcapacity[2]=140
+inputfactor[2]=100
+inputsupplier[2]=1
+inputgood[3]=wood_fuel
+inputcapacity[3]=120
+inputfactor[3]=60
+inputsupplier[3]=1
+BackImage[0][0][0][0][0][0]=asuka_market_craft.0.0
+BackImage[0][0][0][0][0][1]=asuka_market_craft.0.1
+BackImage[1][0][0][0][0][0]=asuka_market_craft.0.2
+BackImage[1][0][0][0][0][1]=asuka_market_craft.0.3
+BackImage[2][0][0][0][0][0]=asuka_market_craft.1.0
+BackImage[2][0][0][0][0][1]=asuka_market_craft.1.1
+BackImage[3][0][0][0][0][0]=asuka_market_craft.1.2
+BackImage[3][0][0][0][0][1]=asuka_market_craft.1.3
+---

@@ -1,0 +1,38 @@
+%require '../industries.datt'
+
+---
+name=Yayoi_Craft_Market
+%include 'industry'
+# =========================================================================
+# Yayoi-Kofun Craft & Jade Market (弥生〜古墳の器物・玉交易場)
+# - 1x1 City Consumer (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Yayoi_Craft_Market
+dims=1,1,4
+level=3
+needs_ground=1
+inputgood[0]=pottery
+inputcapacity[0]=120
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=stone_goods
+inputcapacity[1]=100
+inputfactor[1]=90
+inputsupplier[1]=1
+inputgood[2]=wood_fuel
+inputcapacity[2]=100
+inputfactor[2]=60
+inputsupplier[2]=1
+inputgood[3]=ironware
+inputcapacity[3]=80
+inputfactor[3]=70
+inputsupplier[3]=1
+BackImage[0][0][0][0][0][0]=yayoi_craft_market.0.0
+BackImage[0][0][0][0][0][1]=yayoi_craft_market.0.1
+BackImage[1][0][0][0][0][0]=yayoi_craft_market.0.2
+BackImage[1][0][0][0][0][1]=yayoi_craft_market.0.3
+BackImage[2][0][0][0][0][0]=yayoi_craft_market.1.0
+BackImage[2][0][0][0][0][1]=yayoi_craft_market.1.1
+BackImage[3][0][0][0][0][0]=yayoi_craft_market.1.2
+BackImage[3][0][0][0][0][1]=yayoi_craft_market.1.3
+---

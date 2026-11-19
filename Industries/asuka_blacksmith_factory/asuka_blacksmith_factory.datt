@@ -1,0 +1,33 @@
+%require '../industries.datt'
+
+---
+name=Asuka_Blacksmith_Factory
+%include 'industry'
+# =========================================================================
+# Asuka Blacksmith Workshop (飛鳥の鍛冶工房 - 板葺き鍛冶場)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Asuka_Blacksmith_Factory
+dims=1,1,4
+level=3
+needs_ground=1
+inputgood[0]=crude_iron
+inputcapacity[0]=120
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=wood_fuel
+inputcapacity[1]=100
+inputfactor[1]=80
+inputsupplier[1]=1
+outputgood[0]=ironware
+outputcapacity[0]=120
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=asuka_blacksmith_factory.0.0
+BackImage[0][0][0][0][0][1]=asuka_blacksmith_factory.0.1
+BackImage[1][0][0][0][0][0]=asuka_blacksmith_factory.0.2
+BackImage[1][0][0][0][0][1]=asuka_blacksmith_factory.0.3
+BackImage[2][0][0][0][0][0]=asuka_blacksmith_factory.1.0
+BackImage[2][0][0][0][0][1]=asuka_blacksmith_factory.1.1
+BackImage[3][0][0][0][0][0]=asuka_blacksmith_factory.1.2
+BackImage[3][0][0][0][0][1]=asuka_blacksmith_factory.1.3
+---

@@ -1,0 +1,25 @@
+%require '../industries.datt'
+
+---
+name=Ancient_Iron_Sand_Pit
+%include 'industry'
+# =========================================================================
+# Ancient Iron Sand Pit / Kanna-nagashi (砂鉄採取場・鉄穴流し)
+# - 1x1 Resource Producer (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Ancient_Iron_Sand_Pit
+dims=1,1,4
+level=2
+needs_ground=1
+outputgood[0]=iron_sand
+outputcapacity[0]=140
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=ancient_iron_sand_pit.0.0
+BackImage[0][0][0][0][0][1]=ancient_iron_sand_pit.0.1
+BackImage[1][0][0][0][0][0]=ancient_iron_sand_pit.0.2
+BackImage[1][0][0][0][0][1]=ancient_iron_sand_pit.0.3
+BackImage[2][0][0][0][0][0]=ancient_iron_sand_pit.1.0
+BackImage[2][0][0][0][0][1]=ancient_iron_sand_pit.1.1
+BackImage[3][0][0][0][0][0]=ancient_iron_sand_pit.1.2
+BackImage[3][0][0][0][0][1]=ancient_iron_sand_pit.1.3
+---

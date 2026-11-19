@@ -1,0 +1,37 @@
+%require '../industries.datt'
+
+---
+name=Ancient_Meat_Curing_Workshop
+%include 'industry'
+# =========================================================================
+# Ancient Meat Curing Workshop (古代の干し肉・塩肉加工所)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Ancient_Meat_Curing_Workshop
+dims=1,1,4
+level=2
+needs_ground=1
+inputgood[0]=raw_meat
+inputcapacity[0]=120
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=salt
+inputcapacity[1]=80
+inputfactor[1]=50
+inputsupplier[1]=1
+inputgood[2]=pottery
+inputcapacity[2]=60
+inputfactor[2]=40
+inputsupplier[2]=1
+outputgood[0]=cured_meat
+outputcapacity[0]=120
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=ancient_meat_curing.0.0
+BackImage[0][0][0][0][0][1]=ancient_meat_curing.0.1
+BackImage[1][0][0][0][0][0]=ancient_meat_curing.0.2
+BackImage[1][0][0][0][0][1]=ancient_meat_curing.0.3
+BackImage[2][0][0][0][0][0]=ancient_meat_curing.1.0
+BackImage[2][0][0][0][0][1]=ancient_meat_curing.1.1
+BackImage[3][0][0][0][0][0]=ancient_meat_curing.1.2
+BackImage[3][0][0][0][0][1]=ancient_meat_curing.1.3
+---

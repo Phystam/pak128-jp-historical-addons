@@ -1,0 +1,25 @@
+%require '../industries.datt'
+
+---
+name=Ancient_Hunting_Ground
+%include 'industry'
+# =========================================================================
+# Ancient Hunting Ground (古代の狩猟場)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Ancient_Hunting_Ground
+dims=1,1,4
+level=2
+needs_ground=1
+outputgood[0]=raw_meat
+outputcapacity[0]=120
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=ancient_hunting_ground.0.0
+BackImage[0][0][0][0][0][1]=ancient_hunting_ground.0.1
+BackImage[1][0][0][0][0][0]=ancient_hunting_ground.0.2
+BackImage[1][0][0][0][0][1]=ancient_hunting_ground.0.3
+BackImage[2][0][0][0][0][0]=ancient_hunting_ground.1.0
+BackImage[2][0][0][0][0][1]=ancient_hunting_ground.1.1
+BackImage[3][0][0][0][0][0]=ancient_hunting_ground.1.2
+BackImage[3][0][0][0][0][1]=ancient_hunting_ground.1.3
+---

@@ -1,0 +1,39 @@
+---
+name=Kofun_Jade_Workshop
+
+obj=factory
+copyright=JP Historical Project
+
+intro_year=350
+intro_month=1
+retire_year=850
+retire_month=1
+
+location=Land
+mapcolor=94
+Productivity=30
+Range=22
+distributionweight=5
+# =========================================================================
+# Kofun-Asuka Jade & Stone Workshop (古墳〜飛鳥の玉作・石細工工房)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+name=Kofun_Jade_Workshop
+dims=1,1,4
+level=3
+needs_ground=1
+inputgood[0]=raw_stone
+inputcapacity[0]=140
+inputfactor[0]=100
+inputsupplier[0]=1
+outputgood[0]=stone_goods
+outputcapacity[0]=140
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=kofun_jade_workshop.0.0
+BackImage[0][0][0][0][0][1]=kofun_jade_workshop.0.1
+BackImage[1][0][0][0][0][0]=kofun_jade_workshop.0.2
+BackImage[1][0][0][0][0][1]=kofun_jade_workshop.0.3
+BackImage[2][0][0][0][0][0]=kofun_jade_workshop.1.0
+BackImage[2][0][0][0][0][1]=kofun_jade_workshop.1.1
+BackImage[3][0][0][0][0][0]=kofun_jade_workshop.1.2
+BackImage[3][0][0][0][0][1]=kofun_jade_workshop.1.3
