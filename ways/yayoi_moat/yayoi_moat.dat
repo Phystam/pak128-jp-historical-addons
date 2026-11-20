@@ -12,8 +12,8 @@ retire_month=1
 
 topspeed=20
 max_weight=15
-cost=15000
-maintenance=200
+cost=4000
+maintenance=50
 wear_capacity=500000
 system_type=0
 icon=> yayoi_moat_icon.0.0

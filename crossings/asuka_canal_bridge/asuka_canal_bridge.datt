@@ -1,0 +1,10 @@
+%require '../crossings.datt'
+
+---
+name=Asuka_Canal_Wood_Crossing
+%include 'crossing'
+openimage[ns][0]=asuka_canal_bridge.0.0
+openimage[ew][0]=asuka_canal_bridge.0.1
+closedimage[ns][0]=asuka_canal_bridge.0.0
+closedimage[ew][0]=asuka_canal_bridge.0.1
+---

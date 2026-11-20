@@ -4,7 +4,7 @@
 name=Yayoi_Dirt_Road_10m
 %include 'way'
 icon=> yayoi_dirt_road_10m_icon.0.0
-cursor=yayoi_dirt_road_10m_icon.0.0
+cursor=yayoi_dirt_road_10m.0.5
 image[-][0]=yayoi_dirt_road_10m.0.0
 image[n][0]=yayoi_dirt_road_10m.0.1
 image[e][0]=yayoi_dirt_road_10m.0.2
@@ -67,7 +67,7 @@ diagonal[sw][1]=yayoi_dirt_road_10m.6.7
 name=Yayoi_Dirt_Road_14m
 %include 'way'
 icon=> yayoi_dirt_road_14m_icon.0.0
-cursor=yayoi_dirt_road_14m_icon.0.0
+cursor=yayoi_dirt_road_14m.0.5
 image[-][0]=yayoi_dirt_road_14m.0.0
 image[n][0]=yayoi_dirt_road_14m.0.1
 image[e][0]=yayoi_dirt_road_14m.0.2
