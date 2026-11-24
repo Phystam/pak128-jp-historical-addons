@@ -22,6 +22,7 @@ CATEGORIES = %w[
   way-objects
   bridges
   stations
+  signals
   vehicles
   citycars
   pedestrians

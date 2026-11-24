@@ -1,0 +1,32 @@
+%require '../industries.datt'
+
+---
+name=Nara_Saltworks
+%include 'industry'
+# =========================================================================
+# Nara Moshio & Shiohama Saltworks (奈良の藻塩・塩浜製塩所 - 掘立柱茅葺竈屋・沼井・塩尻)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=wood_fuel
+inputcapacity[0]=180
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=pottery
+inputcapacity[1]=120
+inputfactor[1]=50
+inputsupplier[1]=1
+outputgood[0]=salt
+outputcapacity[0]=180
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=nara_saltworks.0.0
+BackImage[0][0][0][0][0][1]=nara_saltworks.0.1
+BackImage[1][0][0][0][0][0]=nara_saltworks.0.2
+BackImage[1][0][0][0][0][1]=nara_saltworks.0.3
+BackImage[2][0][0][0][0][0]=nara_saltworks.1.0
+BackImage[2][0][0][0][0][1]=nara_saltworks.1.1
+BackImage[3][0][0][0][0][0]=nara_saltworks.1.2
+BackImage[3][0][0][0][0][1]=nara_saltworks.1.3
+---

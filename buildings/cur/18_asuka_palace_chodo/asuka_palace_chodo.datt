@@ -3,6 +3,7 @@
 ---
 name=Asuka_Palace_Chodo
 %include 'building'
+build_time=30000
 needs_ground=1
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=asuka_palace_chodo.0.0

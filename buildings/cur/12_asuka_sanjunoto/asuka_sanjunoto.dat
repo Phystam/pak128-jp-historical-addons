@@ -6,7 +6,7 @@ copyright=JP Historical Project
 
 type=cur
 level=6
-chance=100
+chance=10
 
 intro_year=595
 intro_month=1
@@ -14,7 +14,7 @@ retire_year=950
 retire_month=1
 
 needs_ground=1
-build_time=0
+build_time=20000
 dims=1,1,4
 needs_ground=1
 BackImage[0][0][0][0][0][0]=asuka_sanjunoto.0.0

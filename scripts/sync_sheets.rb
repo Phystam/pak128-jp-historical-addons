@@ -12,6 +12,7 @@ class SyncSheets
     ways
     way-objects
     stations
+    signals
     vehicles
     citycars
     pedestrians

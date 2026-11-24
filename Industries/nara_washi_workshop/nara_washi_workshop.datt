@@ -1,0 +1,28 @@
+%require '../industries.datt'
+
+---
+name=Nara_Washi_Workshop
+%include 'industry'
+# =========================================================================
+# Nara Washi Papermaking Workshop (奈良の紙屋・和紙漉き工房 - 清流・板葺工房・和紙干し板)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=wood_fuel
+inputcapacity[0]=100
+inputfactor[0]=35
+inputsupplier[0]=1
+outputgood[0]=paper
+outputcapacity[0]=160
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=nara_washi_workshop.0.0
+BackImage[0][0][0][0][0][1]=nara_washi_workshop.0.1
+BackImage[1][0][0][0][0][0]=nara_washi_workshop.0.2
+BackImage[1][0][0][0][0][1]=nara_washi_workshop.0.3
+BackImage[2][0][0][0][0][0]=nara_washi_workshop.1.0
+BackImage[2][0][0][0][0][1]=nara_washi_workshop.1.1
+BackImage[3][0][0][0][0][0]=nara_washi_workshop.1.2
+BackImage[3][0][0][0][0][1]=nara_washi_workshop.1.3
+---

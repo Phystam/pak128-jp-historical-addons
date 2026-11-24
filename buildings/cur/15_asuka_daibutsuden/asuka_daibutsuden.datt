@@ -3,7 +3,7 @@
 ---
 name=Asuka_Daibutsuden
 %include 'building'
-build_time=0
+build_time=30000
 dims=2,2,4
 needs_ground=1
 BackImage[0][0][0][0][0][0]=asuka_daibutsuden.0.0

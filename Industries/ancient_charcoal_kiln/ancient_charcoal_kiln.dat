@@ -11,8 +11,8 @@ retire_month=1
 
 location=Land
 mapcolor=139
-Productivity=30
-Range=22
+Productivity=42
+Range=26
 distributionweight=5
 # =========================================================================
 # Ancient Charcoal Kiln (古代の木炭窯・石積み炭窯)
@@ -23,7 +23,7 @@ dims=1,1,4
 level=3
 needs_ground=1
 outputgood[0]=wood_fuel
-outputcapacity[0]=200
+outputcapacity[0]=260
 outputfactor[0]=100
 BackImage[0][0][0][0][0][0]=ancient_charcoal_kiln.0.0
 BackImage[0][0][0][0][0][1]=ancient_charcoal_kiln.0.1

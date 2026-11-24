@@ -1,0 +1,29 @@
+---
+name=Nara_Maryo_Kurumayado_Depot
+
+obj=building
+copyright=JP Historical Project
+
+type=depot
+waytype=road
+level=3
+intro_year=710
+intro_month=1
+retire_year=1500
+retire_month=1
+
+cost=85000
+maintenance=35
+needs_ground=1
+dims=1,1,4
+needs_ground=1
+icon=> nara_maryo_kurumayado_icon.0.0
+cursor=nara_maryo_kurumayado.0.0
+BackImage[0][0][0][0][0][0]=nara_maryo_kurumayado.0.0
+BackImage[0][0][0][0][0][1]=nara_maryo_kurumayado.0.1
+BackImage[1][0][0][0][0][0]=nara_maryo_kurumayado.0.2
+BackImage[1][0][0][0][0][1]=nara_maryo_kurumayado.0.3
+BackImage[2][0][0][0][0][0]=nara_maryo_kurumayado.1.0
+BackImage[2][0][0][0][0][1]=nara_maryo_kurumayado.1.1
+BackImage[3][0][0][0][0][0]=nara_maryo_kurumayado.1.2
+BackImage[3][0][0][0][0][1]=nara_maryo_kurumayado.1.3

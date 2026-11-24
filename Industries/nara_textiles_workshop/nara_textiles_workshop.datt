@@ -1,0 +1,28 @@
+%require '../industries.datt'
+
+---
+name=Nara_Textiles_Workshop
+%include 'industry'
+# =========================================================================
+# Nara Silk & Hemp Weaving Workshop (奈良の調庸織物工房 - 織殿・染色藍甕・反物干棚)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=raw_fiber
+inputcapacity[0]=160
+inputfactor[0]=100
+inputsupplier[0]=1
+outputgood[0]=textiles
+outputcapacity[0]=160
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=nara_textiles_workshop.0.0
+BackImage[0][0][0][0][0][1]=nara_textiles_workshop.0.1
+BackImage[1][0][0][0][0][0]=nara_textiles_workshop.0.2
+BackImage[1][0][0][0][0][1]=nara_textiles_workshop.0.3
+BackImage[2][0][0][0][0][0]=nara_textiles_workshop.1.0
+BackImage[2][0][0][0][0][1]=nara_textiles_workshop.1.1
+BackImage[3][0][0][0][0][0]=nara_textiles_workshop.1.2
+BackImage[3][0][0][0][0][1]=nara_textiles_workshop.1.3
+---

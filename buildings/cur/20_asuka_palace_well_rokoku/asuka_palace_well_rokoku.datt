@@ -3,6 +3,7 @@
 ---
 name=Asuka_Palace_Well_Rokoku
 %include 'building'
+build_time=30000
 needs_ground=1
 dims=1,1,4
 BackImage[0][0][0][0][0][0]=asuka_palace_well_rokoku.0.0

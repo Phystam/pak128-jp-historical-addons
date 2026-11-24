@@ -2,7 +2,7 @@
 rice
 米
 pottery
-弥生土器
+土器・陶磁器
 wood_fuel
 木質燃料
 salt
@@ -31,3 +31,11 @@ crude_iron
 玉鋼・鉄素材
 ironware
 鉄器・鉄製品
+
+# Nara Period Additional Goods Japanese Translation
+raw_fiber
+繭・繊維原料
+textiles
+織物・布
+paper
+和紙・紙

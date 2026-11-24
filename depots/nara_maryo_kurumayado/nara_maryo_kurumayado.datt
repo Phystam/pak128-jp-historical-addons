@@ -1,0 +1,18 @@
+%require '../depots.datt'
+
+---
+name=Nara_Maryo_Kurumayado_Depot
+%include 'depot'
+dims=1,1,4
+needs_ground=1
+icon=> nara_maryo_kurumayado_icon.0.0
+cursor=nara_maryo_kurumayado.0.0
+BackImage[0][0][0][0][0][0]=nara_maryo_kurumayado.0.0
+BackImage[0][0][0][0][0][1]=nara_maryo_kurumayado.0.1
+BackImage[1][0][0][0][0][0]=nara_maryo_kurumayado.0.2
+BackImage[1][0][0][0][0][1]=nara_maryo_kurumayado.0.3
+BackImage[2][0][0][0][0][0]=nara_maryo_kurumayado.1.0
+BackImage[2][0][0][0][0][1]=nara_maryo_kurumayado.1.1
+BackImage[3][0][0][0][0][0]=nara_maryo_kurumayado.1.2
+BackImage[3][0][0][0][0][1]=nara_maryo_kurumayado.1.3
+---

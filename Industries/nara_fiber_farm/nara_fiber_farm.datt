@@ -1,0 +1,148 @@
+%require '../industries.datt'
+
+---
+name=Nara_Fiber_Farm
+%include 'industry'
+# =========================================================================
+# Nara Sericulture & Fiber Farm (奈良の養蚕・麻楮畑農家 - 越屋根養蚕舎・桑畑・麻畑フィールド)
+# - 1x1 Factory (4 Rotations x 2 Seasons) + 2 Field Types x 4 Rotations (8 Field Classes)
+# =========================================================================
+dims=1,1,4
+level=4
+needs_ground=1
+outputgood[0]=raw_fiber
+outputcapacity[0]=180
+outputfactor[0]=100
+probability_to_spawn=5000
+max_fields=24
+min_fields=6
+start_fields=10
+fields[0]=Nara_Mulberry_Field_1
+has_snow[0]=1
+production_per_field[0]=22
+storage_capacity[0]=60
+spawn_weight[0]=1000
+fields[1]=Nara_Mulberry_Field_1_R1
+has_snow[1]=1
+production_per_field[1]=22
+storage_capacity[1]=60
+spawn_weight[1]=1000
+fields[2]=Nara_Mulberry_Field_1_R2
+has_snow[2]=1
+production_per_field[2]=22
+storage_capacity[2]=60
+spawn_weight[2]=1000
+fields[3]=Nara_Mulberry_Field_1_R3
+has_snow[3]=1
+production_per_field[3]=22
+storage_capacity[3]=60
+spawn_weight[3]=1000
+fields[4]=Nara_Hemp_Field_2
+has_snow[4]=1
+production_per_field[4]=22
+storage_capacity[4]=60
+spawn_weight[4]=1000
+fields[5]=Nara_Hemp_Field_2_R1
+has_snow[5]=1
+production_per_field[5]=22
+storage_capacity[5]=60
+spawn_weight[5]=1000
+fields[6]=Nara_Hemp_Field_2_R2
+has_snow[6]=1
+production_per_field[6]=22
+storage_capacity[6]=60
+spawn_weight[6]=1000
+fields[7]=Nara_Hemp_Field_2_R3
+has_snow[7]=1
+production_per_field[7]=22
+storage_capacity[7]=60
+spawn_weight[7]=1000
+BackImage[0][0][0][0][0][0]=nara_fiber_farm.0.0
+BackImage[0][0][0][0][0][1]=nara_fiber_farm.0.1
+BackImage[1][0][0][0][0][0]=nara_fiber_farm.0.2
+BackImage[1][0][0][0][0][1]=nara_fiber_farm.0.3
+BackImage[2][0][0][0][0][0]=nara_fiber_farm.1.0
+BackImage[2][0][0][0][0][1]=nara_fiber_farm.1.1
+BackImage[3][0][0][0][0][0]=nara_fiber_farm.1.2
+BackImage[3][0][0][0][0][1]=nara_fiber_farm.1.3
+---
+
+---
+name=Nara_Mulberry_Field_1
+%include 'field'
+Image[0]=nara_mulberry_field_1.0.2
+Image[1]=nara_mulberry_field_1.0.3
+Image[2]=nara_mulberry_field_1.0.0
+Image[3]=nara_mulberry_field_1.0.1
+Image[4]=nara_mulberry_field_1.1.0
+---
+
+---
+name=Nara_Mulberry_Field_1_R1
+%include 'field'
+Image[0]=nara_mulberry_field_1.1.3
+Image[1]=nara_mulberry_field_1.2.0
+Image[2]=nara_mulberry_field_1.1.1
+Image[3]=nara_mulberry_field_1.1.2
+Image[4]=nara_mulberry_field_1.2.1
+---
+
+---
+name=Nara_Mulberry_Field_1_R2
+%include 'field'
+Image[0]=nara_mulberry_field_1.3.0
+Image[1]=nara_mulberry_field_1.3.1
+Image[2]=nara_mulberry_field_1.2.2
+Image[3]=nara_mulberry_field_1.2.3
+Image[4]=nara_mulberry_field_1.3.2
+---
+
+---
+name=Nara_Mulberry_Field_1_R3
+%include 'field'
+Image[0]=nara_mulberry_field_1.4.1
+Image[1]=nara_mulberry_field_1.4.2
+Image[2]=nara_mulberry_field_1.3.3
+Image[3]=nara_mulberry_field_1.4.0
+Image[4]=nara_mulberry_field_1.4.3
+---
+
+---
+name=Nara_Hemp_Field_2
+%include 'field'
+Image[0]=nara_hemp_field_2.0.2
+Image[1]=nara_hemp_field_2.0.3
+Image[2]=nara_hemp_field_2.0.0
+Image[3]=nara_hemp_field_2.0.1
+Image[4]=nara_hemp_field_2.1.0
+---
+
+---
+name=Nara_Hemp_Field_2_R1
+%include 'field'
+Image[0]=nara_hemp_field_2.1.3
+Image[1]=nara_hemp_field_2.2.0
+Image[2]=nara_hemp_field_2.1.1
+Image[3]=nara_hemp_field_2.1.2
+Image[4]=nara_hemp_field_2.2.1
+---
+
+---
+name=Nara_Hemp_Field_2_R2
+%include 'field'
+Image[0]=nara_hemp_field_2.3.0
+Image[1]=nara_hemp_field_2.3.1
+Image[2]=nara_hemp_field_2.2.2
+Image[3]=nara_hemp_field_2.2.3
+Image[4]=nara_hemp_field_2.3.2
+---
+
+---
+name=Nara_Hemp_Field_2_R3
+%include 'field'
+Image[0]=nara_hemp_field_2.4.1
+Image[1]=nara_hemp_field_2.4.2
+Image[2]=nara_hemp_field_2.3.3
+Image[3]=nara_hemp_field_2.4.0
+Image[4]=nara_hemp_field_2.4.3
+---

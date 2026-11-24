@@ -1,0 +1,32 @@
+%require '../industries.datt'
+
+---
+name=Nara_Dried_Fish_Factory
+%include 'industry'
+# =========================================================================
+# Nara Dried Fish & Bonito Workshop (奈良の干魚・堅魚加工場 - 掘立柱茅葺加工舎・高床板倉・干棚)
+# - 1x1 Factory (4 Rotations x 2 Seasons: Summer & Snow)
+# =========================================================================
+dims=1,1,4
+level=4
+needs_ground=1
+inputgood[0]=fresh_fish
+inputcapacity[0]=180
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=salt
+inputcapacity[1]=120
+inputfactor[1]=50
+inputsupplier[1]=1
+outputgood[0]=dried_fish
+outputcapacity[0]=180
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=nara_dried_fish.0.0
+BackImage[0][0][0][0][0][1]=nara_dried_fish.0.1
+BackImage[1][0][0][0][0][0]=nara_dried_fish.0.2
+BackImage[1][0][0][0][0][1]=nara_dried_fish.0.3
+BackImage[2][0][0][0][0][0]=nara_dried_fish.1.0
+BackImage[2][0][0][0][0][1]=nara_dried_fish.1.1
+BackImage[3][0][0][0][0][0]=nara_dried_fish.1.2
+BackImage[3][0][0][0][0][1]=nara_dried_fish.1.3
+---

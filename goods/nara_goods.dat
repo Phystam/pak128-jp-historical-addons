@@ -1,0 +1,35 @@
+# =========================================================================
+# Nara Period Goods Definitions (混載貨物・Piece Goods catg=1)
+# - raw_fiber: Produced by Nara Fiber Farm (養蚕・麻楮畑農家, 710+)
+# - textiles: Produced by Nara Textiles Workshop (調庸織物工房, 710+)
+# - paper: Produced by Nara Washi Workshop (紙屋・和紙漉き工房, 710+)
+# =========================================================================
+obj=good
+name=raw_fiber
+copyright=JP Historical Project
+metric=t
+catg=1
+value=220
+speed_bonus=6
+weight_per_unit=100
+mapcolor=182
+---
+obj=good
+name=textiles
+copyright=JP Historical Project
+metric=t
+catg=1
+value=440
+speed_bonus=10
+weight_per_unit=100
+mapcolor=174
+---
+obj=good
+name=paper
+copyright=JP Historical Project
+metric=t
+catg=1
+value=390
+speed_bonus=10
+weight_per_unit=100
+mapcolor=214

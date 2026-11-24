@@ -3,6 +3,7 @@
 ---
 name=Monomi_Yagura
 %include 'building'
+build_time=150
 needs_ground=1
 dims=1,1,4
 BackImage[0][0][0][0][0][0]=monomi_yagura.0.0
