@@ -22,6 +22,10 @@ ped_*_*.png
 *_ne.png
 *_nw.png
 
+# Exceptions: real sprite sheets & icons that would match slice patterns
+!*_icon.png
+!buildings/cur/*/*_s.png
+
 # 3. Contact sheets and preview renders
 *_preview*.png
 *_contact*.png
