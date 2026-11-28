@@ -23,4 +23,6 @@ intro_year=#{excel('intro_year') || 1}
 intro_month=#{excel('intro_month') || 1}
 retire_year=#{excel('retire_year') || 2999}
 retire_month=#{excel('retire_month') || 1}
+%%lines(excel('constraint_prev').to_s.split(/[,、\s]+/).reject(&:empty?).each_with_index.map { |v, i| "constraint[prev][#{i}]=#{v}" }.join("\n"))
+%%lines(excel('constraint_next').to_s.split(/[,、\s]+/).reject(&:empty?).each_with_index.map { |v, i| "constraint[next][#{i}]=#{v}" }.join("\n"))
 ---

@@ -1,0 +1,74 @@
+name: Build and Release Addon Pack
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag name (e.g. v0.1)'
+        required: true
+        default: 'v0.1'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+
+      - name: Install Ruby dependencies
+        shell: pwsh
+        run: gem install rubyXL --no-document
+
+      - name: Clean and build PAK and translation tabs
+        shell: pwsh
+        run: ruby scripts/make.rb clean makedat makeobj merge tab
+
+      - name: Verify build outputs
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "build/JP_Historical_all.pak")) { throw "JP_Historical_all.pak not found" }
+          if (-not (Test-Path "build/text/ja.historical.tab")) { throw "ja.historical.tab not found" }
+          if (-not (Test-Path "build/text/en.tab")) { throw "en.tab not found" }
+          $paks = (Get-ChildItem "build_staging/*.pak").Count
+          Write-Host "Staging PAK count: $paks"
+          Get-ChildItem -Recurse build | Select-Object FullName, Length
+
+      - name: Package release archive
+        id: pkg
+        shell: pwsh
+        run: |
+          $tag = if ("${{ github.event_name }}" -eq "workflow_dispatch") { "${{ inputs.tag_name }}" } else { "${{ github.ref_name }}" }
+          $stage = "release_stage"
+          New-Item -ItemType Directory -Force -Path "$stage/text" | Out-Null
+          Copy-Item "build/JP_Historical_all.pak" "$stage/"
+          Copy-Item "build/text/ja.historical.tab" "$stage/text/"
+          Copy-Item "build/text/en.tab" "$stage/text/"
+          if (Test-Path "LICENSE") { Copy-Item "LICENSE" "$stage/" }
+          if (Test-Path "README.md") { Copy-Item "README.md" "$stage/" }
+
+          $zipName = "JP_Historical_addons_${tag}.zip"
+          Compress-Archive -Path "$stage/*" -DestinationPath $zipName -Force
+          "tag=$tag" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "zip=$zipName" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Create GitHub Pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.pkg.outputs.tag }}
+          name: "JP Historical Addons ${{ steps.pkg.outputs.tag }}"
+          prerelease: true
+          generate_release_notes: true
+          files: |
+            ${{ steps.pkg.outputs.zip }}
+            build/JP_Historical_all.pak

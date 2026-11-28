@@ -23,6 +23,8 @@ freightimagetype[14]=fresh_fish
 freightimagetype[15]=raw_fiber
 freightimagetype[16]=textiles
 freightimagetype[17]=paper
+freightimagetype[18]=timber
+freightimagetype[19]=lacquerware
 EmptyImage[s]=nara_hiratabune_cargo.0.0
 EmptyImage[w]=nara_hiratabune_cargo.0.1
 EmptyImage[sw]=nara_hiratabune_cargo.0.2
@@ -175,6 +177,22 @@ FreightImage[17][n]=nara_hiratabune_cargo.3.0
 FreightImage[17][e]=nara_hiratabune_cargo.3.1
 FreightImage[17][ne]=nara_hiratabune_cargo.3.2
 FreightImage[17][nw]=nara_hiratabune_cargo.3.3
+FreightImage[18][s]=nara_hiratabune_cargo.4.0
+FreightImage[18][w]=nara_hiratabune_cargo.4.1
+FreightImage[18][sw]=nara_hiratabune_cargo.4.2
+FreightImage[18][se]=nara_hiratabune_cargo.4.3
+FreightImage[18][n]=nara_hiratabune_cargo.5.0
+FreightImage[18][e]=nara_hiratabune_cargo.5.1
+FreightImage[18][ne]=nara_hiratabune_cargo.5.2
+FreightImage[18][nw]=nara_hiratabune_cargo.5.3
+FreightImage[19][s]=nara_hiratabune_cargo.2.0
+FreightImage[19][w]=nara_hiratabune_cargo.2.1
+FreightImage[19][sw]=nara_hiratabune_cargo.2.2
+FreightImage[19][se]=nara_hiratabune_cargo.2.3
+FreightImage[19][n]=nara_hiratabune_cargo.3.0
+FreightImage[19][e]=nara_hiratabune_cargo.3.1
+FreightImage[19][ne]=nara_hiratabune_cargo.3.2
+FreightImage[19][nw]=nara_hiratabune_cargo.3.3
 ---
 
 ---
@@ -200,6 +218,8 @@ freightimagetype[14]=fresh_fish
 freightimagetype[15]=raw_fiber
 freightimagetype[16]=textiles
 freightimagetype[17]=paper
+freightimagetype[18]=timber
+freightimagetype[19]=lacquerware
 EmptyImage[s]=nara_hiratabune_large_cargo.0.0
 EmptyImage[w]=nara_hiratabune_large_cargo.0.1
 EmptyImage[sw]=nara_hiratabune_large_cargo.0.2
@@ -352,6 +372,22 @@ FreightImage[17][n]=nara_hiratabune_large_cargo.3.0
 FreightImage[17][e]=nara_hiratabune_large_cargo.3.1
 FreightImage[17][ne]=nara_hiratabune_large_cargo.3.2
 FreightImage[17][nw]=nara_hiratabune_large_cargo.3.3
+FreightImage[18][s]=nara_hiratabune_large_cargo.4.0
+FreightImage[18][w]=nara_hiratabune_large_cargo.4.1
+FreightImage[18][sw]=nara_hiratabune_large_cargo.4.2
+FreightImage[18][se]=nara_hiratabune_large_cargo.4.3
+FreightImage[18][n]=nara_hiratabune_large_cargo.5.0
+FreightImage[18][e]=nara_hiratabune_large_cargo.5.1
+FreightImage[18][ne]=nara_hiratabune_large_cargo.5.2
+FreightImage[18][nw]=nara_hiratabune_large_cargo.5.3
+FreightImage[19][s]=nara_hiratabune_large_cargo.2.0
+FreightImage[19][w]=nara_hiratabune_large_cargo.2.1
+FreightImage[19][sw]=nara_hiratabune_large_cargo.2.2
+FreightImage[19][se]=nara_hiratabune_large_cargo.2.3
+FreightImage[19][n]=nara_hiratabune_large_cargo.3.0
+FreightImage[19][e]=nara_hiratabune_large_cargo.3.1
+FreightImage[19][ne]=nara_hiratabune_large_cargo.3.2
+FreightImage[19][nw]=nara_hiratabune_large_cargo.3.3
 ---
 
 ---

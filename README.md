@@ -1,8 +1,8 @@
 # Simutrans向けpak128 日本風歴史アドオンセット
 
-本リポジトリは、交通シミュレーションゲーム『Simutrans』（pak128 / pak128.japan）向けに、日本の歴史時代（弥生時代〜古代を中心とした歴史的景観・インフラ・交通）を再現するためのアドオンセットおよびその統合開発環境です。
+本リポジトリは、交通シミュレーションゲーム『Simutrans』（pak128 / pak128.japan）向けに、日本の歴史時代（弥生時代〜古墳・飛鳥時代〜奈良時代〜平安時代）の景観・インフラ・交通を再現するためのアドオンセットおよびその統合開発環境です。
 
-集落・建物（竪穴住居、高床倉庫、主祭殿、物見櫓等）、インフラ（環濠、土道、柵、河川港、造船所）、交通機関（運搬人、準構造船、丸木船等）、産業チェーン（水田・米、土器工房等）などを網羅し、Blenderによる3Dモデリングからdattプリプロセッサによる一括管理、makeobjによる自動パッケージングまでをワンストップで行えるパイプラインを備えています。
+集落・都城建築（竪穴住居、高床倉庫、町家・寝殿造、古墳・飛鳥・奈良・平安の寺院や大内裏等）、インフラ（環濠、木板側溝付き大路・小路、官道、木橋・太鼓橋・舟橋、運河、停留所・車庫等）、交通機関（運搬人、牛車、駄馬、早馬、和船・唐船、歩行者、市内車両等）、産業チェーン（水田・米、畑、たたら製鉄、窯業、漆芸、醸造等）などを網羅し、Blenderによる3Dモデリングからdattプリプロセッサによる一括管理、makeobjによる自動パッケージングまでをワンストップで行えるパイプラインを備えています。
 
 ---
 
@@ -94,7 +94,7 @@ Simutrans Blender Kitによるレンダリング時、低解像度の直交投�
 
 ### ⑤ ビルド環境の準備（Ruby・makeobj）
 - **Ruby**: Ruby 3.x（`ruby -v` で確認可能。dattプリプロセッサおよびビルドパイプライン実行に必要）
-  - 必要gem: `roo`（Excel読み込み用。`gem install roo`）
+  - 必要gem: `rubyXL`（Excel読み込み用。`gem install rubyXL`）
 - **makeobj**: `makeobj/makeobj.exe` に配置済み（pak128対応バイナリ）
 
 ---
@@ -105,12 +105,15 @@ Simutrans Blender Kitによるレンダリング時、低解像度の直交投�
 
 ```
 Simutrans/
-├── buildings/        # 建物類 (住宅・商業・寺社・集落等)
+├── buildings/        # 建物類 (住宅・商業・寺社・官衙・集落等)
 ├── Industries/       # 産業類 (工場、水田・農地、原料採掘等)
 ├── ways/             # 道路・運河・線路等の交通インフラ
 ├── way-objects/      # 架線・柵・逆茂木等のway-object
-├── stations/         # 駅舎、停留所、埠頭/港、車庫(depot)、造船所
-├── vehicles/         # 車両 (運搬人、船舶、列車等)
+├── bridges/          # 橋梁（丸木橋、木桁橋、反り木橋、舟橋等）
+├── stations/         # 駅舎、停留所、関所・馬継宿、埠頭/港
+├── signals/          # 道路標識・道標（ミチシルベ等）
+├── depots/           # 車庫・厩・造船所
+├── vehicles/         # 車両・船舶 (運搬人、牛車、駄馬、和船等)
 ├── citycars/         # 市内一般車両
 ├── pedestrians/      # 歩行者
 ├── crossings/        # 異なるway同士の平面交差
@@ -118,6 +121,7 @@ Simutrans/
 ├── text/             # 言語リソース (ja.tab, en.tab 元データ)
 ├── Texture/          # モデリング共通テクスチャ素材 (.png, .xcf)
 ├── components/       # 再利用可能な3Dプロップ素材 (井戸等)
+├── research/         # 歴史考証・設計調査ドキュメント
 ├── makeobj/          # makeobj 実行バイナリ
 ├── scripts/          # ビルド・同期スクリプト群
 ├── build_staging/    # makeobj による個別 pak の一時出力先 (git管理外)
@@ -180,7 +184,7 @@ ruby scripts/make.rb makeobj
 # build_staging/ の pak をマージして build/JP_Historical_all.pak を生成
 ruby scripts/make.rb merge
 
-# build/text/ja.tab を生成
+# build/text/ja.historical.tab および en.tab を生成
 ruby scripts/make.rb tab
 
 # 生成物 (dat, jatab, staging pak, build pak) のクリーンアップ
@@ -189,12 +193,13 @@ ruby scripts/make.rb clean
 
 ---
 
-## 6. 生成される成果物
+## 6. 生成される成果物・導入方法
 
 - **統合 pak**: `build/JP_Historical_all.pak`
   Simutrans の `addons/pak128` や `addons/pak128.japan` などにそのまま配置して利用できます。
-- **翻訳ファイル**: `build/text/ja.tab` (および `en.tab`)
-  各アドオンの日本語名称および基本貨物定義を結合した UTF-8 (BOM/§ 付き) ファイルです。
+- **翻訳ファイル**: `build/text/ja.historical.tab`（および `build/text/en.tab`）
+  各アドオンの日本語・英語名称および基本貨物定義を結合した UTF-8（§ 付き）ファイルです。
+- **リリースアーカイブ導入**: GitHub Releases から `JP_Historical_addons_<version>.zip` をダウンロードした場合、`JP_Historical_all.pak` および `text/` フォルダを Simutrans の `addons/pak128/`（または `pak128.japan/`）直下へ展開してください。
 
 ---
 

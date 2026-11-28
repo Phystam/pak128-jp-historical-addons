@@ -1,0 +1,28 @@
+%require '../../buildings.datt'
+
+---
+name=Heian_04_Shinden_Teitaku
+%include 'building'
+dims=1,1,4
+needs_ground=1
+BackImage[0][0][0][0][0][0]=heian_04_shinden_teitaku.0.0
+BackImage[0][0][0][0][0][1]=heian_04_shinden_teitaku.0.1
+BackImage[0][0][0][0][0][2]=heian_04_shinden_teitaku.0.2
+BackImage[0][0][0][0][0][3]=heian_04_shinden_teitaku.0.3
+BackImage[0][0][0][0][0][4]=heian_04_shinden_teitaku.0.4
+BackImage[1][0][0][0][0][0]=heian_04_shinden_teitaku.0.5
+BackImage[1][0][0][0][0][1]=heian_04_shinden_teitaku.0.6
+BackImage[1][0][0][0][0][2]=heian_04_shinden_teitaku.0.7
+BackImage[1][0][0][0][0][3]=heian_04_shinden_teitaku.0.8
+BackImage[1][0][0][0][0][4]=heian_04_shinden_teitaku.0.9
+BackImage[2][0][0][0][0][0]=heian_04_shinden_teitaku.0.10
+BackImage[2][0][0][0][0][1]=heian_04_shinden_teitaku.0.11
+BackImage[2][0][0][0][0][2]=heian_04_shinden_teitaku.0.12
+BackImage[2][0][0][0][0][3]=heian_04_shinden_teitaku.0.13
+BackImage[2][0][0][0][0][4]=heian_04_shinden_teitaku.0.14
+BackImage[3][0][0][0][0][0]=heian_04_shinden_teitaku.0.15
+BackImage[3][0][0][0][0][1]=heian_04_shinden_teitaku.0.16
+BackImage[3][0][0][0][0][2]=heian_04_shinden_teitaku.0.17
+BackImage[3][0][0][0][0][3]=heian_04_shinden_teitaku.0.18
+BackImage[3][0][0][0][0][4]=heian_04_shinden_teitaku.0.19
+---

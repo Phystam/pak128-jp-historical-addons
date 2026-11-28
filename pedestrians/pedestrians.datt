@@ -14,4 +14,5 @@ intro_month=#{excel('intro_month') || 1}
 retire_year=#{excel('retire_year') || 2999}
 retire_month=#{excel('retire_month') || 1}
 distributionweight=#{excel('distributionweight') || 10}
+offset=24
 ---

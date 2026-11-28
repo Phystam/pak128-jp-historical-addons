@@ -128,3 +128,15 @@
 1. **役場3階層 (`tow`) のレベルと `build_time`**: 荘園政所 (`lv=18, bt=0`) / 国府庁 (`lv=24, bt=1200`) / 院庁・検非違使庁 (`lv=32, bt=3000`) の出現段階差で問題ないでしょうか？
 2. **マルチタイル展開（全16棟中 7棟が `2×1` / `2×2`）**: 上記の `Heian_10_Toimaru_Kura_2x1`（問丸・塗籠蔵）、`Heian_11_Sakagura_2x1`（酒蔵）、`Heian_13_Someori_Kobo_2x1`（綾錦染織工房）、および `Heian_08_Shokuryo_Misedana`（食料見世棚）の構成・サイズ感に修正点はありますか？
 3. 問題なければこのまま **Blender モデリング実装・レンダリング検証・ビルド統合** へ進みます！
+
+---
+
+## 8. 実装結果（Phase A 完了メモ）
+
+- **事前チェックポイント**: Phase A 実装開始前にここまでの進捗（古墳 Phase 1–3・奈良 Phase A–D・`tree_lib.py`・平安事前調査）をコミット `55f349a`（515 files changed）として `origin/main` へプッシュ済み。
+- **造形・レンダリング実績（Blender 5.2.2 LTS）**:
+  - 共通モジュール `heian_arch_common.py`（`nara_arch_common.py` ＋ `nara_phaseC_helpers.py` 継承拡張）により、全16棟を **5季節（冬/春/夏/秋/雪）・4向き・`needs_ground=1`・予約色ゼロ (`reserved={}`)** で出力（計 **740スプライト**：`2×2` ×4棟×100 ＋ `2×1` ×5棟×40 ＋ `1×1` ×7棟×20）。
+  - プレビュー目視検証で抽出した5点（檜皮葺入母屋隅棟の連続曲線仕上げ、`Heian_01_Koya_Nagaya` の2棟分離・庇干渉解消、`Heian_03_Zuryo_Yashiki` の階段・遣水干渉解消、`Heian_07_Dai_Shinden_2x2` の西中門亭追加、`Heian_08/09/10` 見世棚の藍布日除け位置補正＆問丸の塗籠蔵2棟とも正面扉化）を修正・再レンダリング済み。
+- **Excel 登録 ＆ フルビルド検証**:
+  - [parameters.xlsx](../buildings/parameters.xlsx) の `R102..R117` へ全16棟を登録し、`ruby scripts/make.rb makedat makeobj merge tab` を正常終了（exit `0`）。
+  - 個別ステージング `.pak` 16種すべてが `makeobj LIST` 通過、`.dat` パラメータ（`type`/`dims`/`level`/`chance`/`intro_year`/`retire_year`/`build_time`）16/16 一致、`build/JP_Historical_all.pak`（`94,418,687` bytes）および `build/text/ja.historical.tab`（`18,719` bytes）・`build/text/en.tab`（`18,173` bytes）への全16 ID 収録を確認。

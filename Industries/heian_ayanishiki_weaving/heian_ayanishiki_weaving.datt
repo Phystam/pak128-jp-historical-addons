@@ -1,0 +1,33 @@
+%require '../industries.datt'
+
+---
+name=Heian_Ayanishiki_Weaving
+%include 'industry'
+# Heian Ayanishiki Silk & Brocade Weaving Workshop (2x1): raw_fiber -> textiles
+dims=2,1,4
+level=5
+needs_ground=1
+inputgood[0]=raw_fiber
+inputcapacity[0]=180
+inputfactor[0]=100
+inputsupplier[0]=1
+outputgood[0]=textiles
+outputcapacity[0]=180
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=heian_ayanishiki_weaving.0.0
+BackImage[0][0][0][0][0][1]=heian_ayanishiki_weaving.0.1
+BackImage[0][0][1][0][0][0]=heian_ayanishiki_weaving.0.2
+BackImage[0][0][1][0][0][1]=heian_ayanishiki_weaving.0.3
+BackImage[1][0][0][0][0][0]=heian_ayanishiki_weaving.0.4
+BackImage[1][0][0][0][0][1]=heian_ayanishiki_weaving.0.5
+BackImage[1][1][0][0][0][0]=heian_ayanishiki_weaving.0.6
+BackImage[1][1][0][0][0][1]=heian_ayanishiki_weaving.0.7
+BackImage[2][0][0][0][0][0]=heian_ayanishiki_weaving.0.8
+BackImage[2][0][0][0][0][1]=heian_ayanishiki_weaving.0.9
+BackImage[2][0][1][0][0][0]=heian_ayanishiki_weaving.0.10
+BackImage[2][0][1][0][0][1]=heian_ayanishiki_weaving.0.11
+BackImage[3][0][0][0][0][0]=heian_ayanishiki_weaving.0.12
+BackImage[3][0][0][0][0][1]=heian_ayanishiki_weaving.0.13
+BackImage[3][1][0][0][0][0]=heian_ayanishiki_weaving.0.14
+BackImage[3][1][0][0][0][1]=heian_ayanishiki_weaving.0.15
+---

@@ -1,0 +1,37 @@
+%require '../industries.datt'
+
+---
+name=Heian_Urushi_Workshop
+%include 'industry'
+# Heian Urushi & Maki-e Lacquerware Workshop (2x1): timber + wood_fuel -> lacquerware
+dims=2,1,4
+level=5
+needs_ground=1
+inputgood[0]=timber
+inputcapacity[0]=160
+inputfactor[0]=100
+inputsupplier[0]=1
+inputgood[1]=wood_fuel
+inputcapacity[1]=100
+inputfactor[1]=30
+inputsupplier[1]=1
+outputgood[0]=lacquerware
+outputcapacity[0]=160
+outputfactor[0]=100
+BackImage[0][0][0][0][0][0]=heian_urushi_workshop.0.0
+BackImage[0][0][0][0][0][1]=heian_urushi_workshop.0.1
+BackImage[0][0][1][0][0][0]=heian_urushi_workshop.0.2
+BackImage[0][0][1][0][0][1]=heian_urushi_workshop.0.3
+BackImage[1][0][0][0][0][0]=heian_urushi_workshop.0.4
+BackImage[1][0][0][0][0][1]=heian_urushi_workshop.0.5
+BackImage[1][1][0][0][0][0]=heian_urushi_workshop.0.6
+BackImage[1][1][0][0][0][1]=heian_urushi_workshop.0.7
+BackImage[2][0][0][0][0][0]=heian_urushi_workshop.0.8
+BackImage[2][0][0][0][0][1]=heian_urushi_workshop.0.9
+BackImage[2][0][1][0][0][0]=heian_urushi_workshop.0.10
+BackImage[2][0][1][0][0][1]=heian_urushi_workshop.0.11
+BackImage[3][0][0][0][0][0]=heian_urushi_workshop.0.12
+BackImage[3][0][0][0][0][1]=heian_urushi_workshop.0.13
+BackImage[3][1][0][0][0][0]=heian_urushi_workshop.0.14
+BackImage[3][1][0][0][0][1]=heian_urushi_workshop.0.15
+---

@@ -1,0 +1,53 @@
+%require '../pedestrians.datt'
+
+---
+name=Kofun_Ped_Commoner_Hemp
+%include 'pedestrian'
+image[s]=kofun_asuka_pedestrians.0.0,-26,-13
+image[w]=kofun_asuka_pedestrians.0.1,26,-13
+image[sw]=kofun_asuka_pedestrians.0.2,0,-13
+image[se]=kofun_asuka_pedestrians.0.3,-26,0
+image[n]=kofun_asuka_pedestrians.0.4,26,13
+image[e]=kofun_asuka_pedestrians.0.5,-26,13
+image[ne]=kofun_asuka_pedestrians.0.6,0,13
+image[nw]=kofun_asuka_pedestrians.0.7,26,0
+---
+
+---
+name=Kofun_Ped_Commoner_Indigo
+%include 'pedestrian'
+image[s]=kofun_asuka_pedestrians.1.0,-26,-13
+image[w]=kofun_asuka_pedestrians.1.1,26,-13
+image[sw]=kofun_asuka_pedestrians.1.2,0,-13
+image[se]=kofun_asuka_pedestrians.1.3,-26,0
+image[n]=kofun_asuka_pedestrians.1.4,26,13
+image[e]=kofun_asuka_pedestrians.1.5,-26,13
+image[ne]=kofun_asuka_pedestrians.1.6,0,13
+image[nw]=kofun_asuka_pedestrians.1.7,26,0
+---
+
+---
+name=Asuka_Ped_Official
+%include 'pedestrian'
+image[s]=kofun_asuka_pedestrians.2.0,-26,-13
+image[w]=kofun_asuka_pedestrians.2.1,26,-13
+image[sw]=kofun_asuka_pedestrians.2.2,0,-13
+image[se]=kofun_asuka_pedestrians.2.3,-26,0
+image[n]=kofun_asuka_pedestrians.2.4,26,13
+image[e]=kofun_asuka_pedestrians.2.5,-26,13
+image[ne]=kofun_asuka_pedestrians.2.6,0,13
+image[nw]=kofun_asuka_pedestrians.2.7,26,0
+---
+
+---
+name=Asuka_Ped_Monk
+%include 'pedestrian'
+image[s]=kofun_asuka_pedestrians.3.0,-26,-13
+image[w]=kofun_asuka_pedestrians.3.1,26,-13
+image[sw]=kofun_asuka_pedestrians.3.2,0,-13
+image[se]=kofun_asuka_pedestrians.3.3,-26,0
+image[n]=kofun_asuka_pedestrians.3.4,26,13
+image[e]=kofun_asuka_pedestrians.3.5,-26,13
+image[ne]=kofun_asuka_pedestrians.3.6,0,13
+image[nw]=kofun_asuka_pedestrians.3.7,26,0
+---

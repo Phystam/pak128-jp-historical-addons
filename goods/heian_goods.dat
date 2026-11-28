@@ -1,0 +1,24 @@
+# =========================================================================
+# Heian Period Goods Definitions (混載貨物・Piece Goods catg=1)
+# - timber: Produced by Ancient_Charcoal_Kiln (木炭窯と杣土場, 500+)
+# - lacquerware: Produced by Heian_Urushi_Workshop (漆芸・蒔絵工房, 850+)
+# =========================================================================
+obj=good
+name=timber
+copyright=JP Historical Project
+metric=t
+catg=1
+value=190
+speed_bonus=4
+weight_per_unit=100
+mapcolor=106
+---
+obj=good
+name=lacquerware
+copyright=JP Historical Project
+metric=t
+catg=1
+value=520
+speed_bonus=12
+weight_per_unit=100
+mapcolor=142

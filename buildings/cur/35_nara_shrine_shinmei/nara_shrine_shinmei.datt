@@ -3,7 +3,7 @@
 ---
 name=Nara_Shrine_Shinmei
 %include 'building'
-build_time=900
+build_time=800
 dims=2,1,4
 needs_ground=1
 BackImage[0][0][0][0][0][0]=nara_shrine_shinmei.0.0
